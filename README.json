@@ -1,0 +1,340 @@
+{
+  "items": [
+    {
+      "description": "",
+      "items": [],
+      "title": "0. What Mechatronics Means Now"
+    },
+    {
+      "description": "Mechatronics has been redefined roughly once per industrial revolution, and the current redefinition is the sharpest since the 1990s.\n1. Mechanics + electronics → synergistic integration. The 1980s–90s reframing was that mechatronics is not a sum of parts bolted together but a co-design discipline: the mechanism, the sensor choice and the control law are decided together, from the first sketch. This is where the V-model and concurrent engineering come from, and it remains the core professional skill.\n2. Mechatronics → Cyber-Physical Systems. With Industry 4.0 (2011), production systems became networked CPS built on digital twins and standardised information models. Mechatronics stopped being about one machine and started being about fleets of machines with an information layer. The Asset Administration Shell (IEC 63278-1:2023) is the concrete artefact of this shift.\n3. CPS → Human-CPS (Industry 5.0). From around 2020, the framing added human-centricity, resilience and sustainability, giving rise to Human Cyber-Physical Systems and cobots. A useful consequence: three industrial paradigms now coexist on the same shop floor, and a mechatronics engineer is expected to work across all three.\n4. Everything → Physical AI / Embodied AI. The 2024–2026 shift is the largest. Perception-to-action neural policies increasingly replace the hand-designed controller, not just augment it. Terminology is genuinely contested here:\nThe honest reading: Physical AI is a market category; mechatronics is the engineering discipline it depends on. Nothing in a VLA solves backlash, thermal derating, or the fact that a harmonic drive has a torque ripple signature. What has changed is where the difficulty sits — less in writing the controller, more in hardware that is learnable: backdrivable, well-instrumented, repeatable, and cheap enough to collect thousands of demonstrations on.",
+      "items": [],
+      "title": "The definition has moved four times"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "A working definition for 2026"
+    },
+    {
+      "description": "Mechatronics is wide enough that \"where do I start\" is the most common question. Three paths, depending on where you want to end up.",
+      "items": [],
+      "title": "1. Start Here: Learning Paths"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "2. Foundations: Books & Courses"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Courses worth your time 🎓"
+    },
+    {
+      "description": "The most common failure mode in modern mechatronics projects is a good policy on bad hardware. This section is the mechanical engineering that a mechatronic engineer specifically needs — not general machine design, but the subset where mechanics and control interact.",
+      "items": [],
+      "title": "3. The Mechanical Side, Seen From Mechatronics"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "3.4 Design, simulation and manufacturing tools"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "4. Electronics, Embedded & Edge"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Microcontrollers & compute"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "5. Industrial Automation, Industry 4.0 / 5.0"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "6. The Robotics Software Stack"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "🔧 Python Robotics",
+          "description": "🆓 — readable implementations of dozens of algorithms. Excellent for learning. ⭐",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-10T20:02:58Z",
+            "owner": "AtsushiSakai",
+            "repo": "PythonRobotics",
+            "stars": 30295
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "🔧 Pinocchio",
+          "description": "🆓 — fast rigid-body dynamics with analytical derivatives. The backbone of most modern whole-body controllers.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-11T13:06:15Z",
+            "owner": "stack-of-tasks",
+            "repo": "pinocchio",
+            "stars": 3650
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "🔧 Crocoddyl",
+          "description": "🆓 — DDP-family optimal control for legged/multi-contact robots. 🔬",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-12T21:55:01Z",
+            "owner": "loco-3d",
+            "repo": "crocoddyl",
+            "stars": 1275
+          }
+        }
+      ],
+      "title": "Kinematics, dynamics & optimisation libraries"
+    },
+    {
+      "description": "The physics-engine landscape has been rewritten by GPU acceleration.\nPractical guidance: for learning a policy, use Newton/MuJoCo-Warp or Isaac Lab. For validating a system, use Gazebo or Isaac Sim. For understanding what your controller does, use MuJoCo on CPU with the viewer open.",
+      "items": [],
+      "title": "Simulation — this changed completely in 2025–2026"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "🔧 SAM 2",
+          "description": "🆓 — promptable segmentation for images and video; now a standard preprocessing block in robot perception.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Jupyter Notebook",
+            "last_commit": "2026-05-30T02:29:40Z",
+            "owner": "facebookresearch",
+            "repo": "sam2",
+            "stars": 19694
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "🔧 ORB-SLAM3",
+          "description": "🆓 / RTAB-Map 🆓 — visual and RGB-D SLAM.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2024-07-24T08:41:52Z",
+            "owner": "UZ-SLAMLab",
+            "repo": "ORB_SLAM3",
+            "stars": 8941
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "🔧 Nerfstudio",
+          "description": "🆓 / gsplat 🆓 — NeRF and 3D Gaussian splatting; now used for real-to-sim asset capture.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-11T21:25:49Z",
+            "owner": "nerfstudio-project",
+            "repo": "gsplat",
+            "stars": 5529
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "🔧 FoundationPose",
+          "description": "🆓 — 6-DoF pose estimation for novel objects.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-04-29T16:53:08Z",
+            "owner": "NVlabs",
+            "repo": "FoundationPose",
+            "stars": 3479
+          }
+        }
+      ],
+      "title": "Perception"
+    },
+    {
+      "description": "This is the section that did not exist when this list was first written. In five years, robot manipulation moved from \"write an inverse-kinematics solver and a state machine\" to \"collect demonstrations and train a policy.\" Both approaches are alive; a mechatronic engineer in 2026 needs to know when to reach for which.",
+      "items": [],
+      "title": "7. Learning-Based Control: The New Core"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "7.7 Datasets & benchmarks"
+    },
+    {
+      "description": "\"Agentic\" is the most abused word in industrial marketing right now, so start with the distinction that actually matters:\nThe non-negotiable design rule: the LLM never sits inside the safety function. Interlocks, e-stops and safety-rated logic remain deterministic, certified and independent. An agent may adjust a setpoint inside a human-defined envelope; it may not define the envelope.",
+      "items": [],
+      "title": "8. Agentic AI in Automation and Robotics"
+    },
+    {
+      "description": "Open-source and low-cost platforms, roughly by price.",
+      "items": [],
+      "title": "10. Hardware You Can Actually Buy or Build"
+    },
+    {
+      "description": "Where things stand, honestly assessed.",
+      "items": [],
+      "title": "12. Trends Radar 2026"
+    },
+    {
+      "description": "Robotics & learning",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "PythonRobotics",
+          "description": "algorithms with readable code",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-10T20:02:58Z",
+            "owner": "AtsushiSakai",
+            "repo": "PythonRobotics",
+            "stars": 30295
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "robotics-coursework",
+          "description": "where to learn robotics online",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-05-11T08:28:29Z",
+            "owner": "mithi",
+            "repo": "robotics-coursework",
+            "stars": 5104
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Awesome LLM Robotics",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-07-17T20:28:18Z",
+            "owner": "GT-RIPL",
+            "repo": "Awesome-LLM-Robotics",
+            "stars": 4448
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Awesome ROS2",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": null,
+            "last_commit": "2023-08-18T07:40:50Z",
+            "owner": "fkromer",
+            "repo": "awesome-ros2",
+            "stars": 2131
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Awesome Robotics",
+          "description": "Awesome Robotics Libraries",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2024-01-10T07:45:21Z",
+            "owner": "ahundt",
+            "repo": "awesome-robotics",
+            "stars": 1470
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Awesome Embodied AI",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2025-06-03T15:13:28Z",
+            "owner": "haoranD",
+            "repo": "Awesome-Embodied-AI",
+            "stars": 527
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Awesome Physical AI",
+          "description": "VLA, world models, embodied AI, robot foundation models",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-06-24T11:11:58Z",
+            "owner": "keon",
+            "repo": "awesome-physical-ai",
+            "stars": 380
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Awesome VLA",
+          "description": "actively maintained VLA paper tracker",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-02-03T12:09:50Z",
+            "owner": "KwanWaiPang",
+            "repo": "Awesome-VLA",
+            "stars": 93
+          }
+        }
+      ],
+      "title": "14. Related Awesome Lists"
+    },
+    {
+      "description": "Contributions are welcome — additions, corrections and dead-link reports alike.\nThe rules in short: prefer free and primary sources, mark paid ones with 💵, include the year for anything in the fast-moving sections, and give one line on why a resource is worth someone's time. Keep the mechatronic point of view — this is not a general AI, ME or EE list.\nRead CONTRIBUTING.md for the full guidelines, entry format and marker conventions.",
+      "items": [],
+      "title": "Contributing"
+    },
+    {
+      "description": "To the extent possible under law, the contributors have waived all copyright and related rights to this work.",
+      "items": [],
+      "title": "Licence"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-08-13T07:46:55.360Z",
+    "original_repository": "engyasin/awesome-mechatronics",
+    "original_repository_sha": "66556c8d64cdc7cc38f5ee84df4b87b6c8594a08",
+    "enhanced_repository": "enhansome/enhansome-mechatronics",
+    "enhanced_repository_description": null,
+    "title": "Awesome Mechatronics with stars"
+  }
+}
