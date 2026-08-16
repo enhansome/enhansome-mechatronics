@@ -74,7 +74,7 @@
             "last_commit": "2026-08-10T20:02:58Z",
             "owner": "AtsushiSakai",
             "repo": "PythonRobotics",
-            "stars": 30307
+            "stars": 30308
           }
         },
         {
@@ -88,7 +88,7 @@
             "last_commit": "2026-08-11T13:06:15Z",
             "owner": "stack-of-tasks",
             "repo": "pinocchio",
-            "stars": 3654
+            "stars": 3657
           }
         },
         {
@@ -141,7 +141,7 @@
             "last_commit": "2024-07-24T08:41:52Z",
             "owner": "UZ-SLAMLab",
             "repo": "ORB_SLAM3",
-            "stars": 8951
+            "stars": 8956
           }
         },
         {
@@ -152,10 +152,10 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-15T02:00:39Z",
+            "last_commit": "2026-08-15T16:34:08Z",
             "owner": "nerfstudio-project",
             "repo": "gsplat",
-            "stars": 5539
+            "stars": 5540
           }
         },
         {
@@ -214,7 +214,7 @@
             "last_commit": "2026-08-10T20:02:58Z",
             "owner": "AtsushiSakai",
             "repo": "PythonRobotics",
-            "stars": 30307
+            "stars": 30308
           }
         },
         {
@@ -228,7 +228,7 @@
             "last_commit": "2026-05-11T08:28:29Z",
             "owner": "mithi",
             "repo": "robotics-coursework",
-            "stars": 5117
+            "stars": 5119
           }
         },
         {
@@ -242,7 +242,7 @@
             "last_commit": "2026-07-17T20:28:18Z",
             "owner": "GT-RIPL",
             "repo": "Awesome-LLM-Robotics",
-            "stars": 4449
+            "stars": 4451
           }
         },
         {
@@ -270,7 +270,7 @@
             "last_commit": "2024-01-10T07:45:21Z",
             "owner": "ahundt",
             "repo": "awesome-robotics",
-            "stars": 1473
+            "stars": 1475
           }
         },
         {
@@ -298,7 +298,7 @@
             "last_commit": "2026-06-24T11:11:58Z",
             "owner": "keon",
             "repo": "awesome-physical-ai",
-            "stars": 382
+            "stars": 385
           }
         },
         {
@@ -330,7 +330,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-15T06:52:19.415Z",
+    "last_updated": "2026-08-16T06:53:49.198Z",
     "original_repository": "engyasin/awesome-mechatronics",
     "original_repository_sha": "66556c8d64cdc7cc38f5ee84df4b87b6c8594a08",
     "enhanced_repository": "enhansome/enhansome-mechatronics",
