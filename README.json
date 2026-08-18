@@ -71,10 +71,10 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-10T20:02:58Z",
+            "last_commit": "2026-08-17T20:03:09Z",
             "owner": "AtsushiSakai",
             "repo": "PythonRobotics",
-            "stars": 30309
+            "stars": 30313
           }
         },
         {
@@ -88,7 +88,7 @@
             "last_commit": "2026-08-11T13:06:15Z",
             "owner": "stack-of-tasks",
             "repo": "pinocchio",
-            "stars": 3657
+            "stars": 3658
           }
         },
         {
@@ -99,10 +99,10 @@
           "repo_info": {
             "archived": false,
             "language": "C++",
-            "last_commit": "2026-08-13T20:44:26Z",
+            "last_commit": "2026-08-17T21:48:06Z",
             "owner": "loco-3d",
             "repo": "crocoddyl",
-            "stars": 1276
+            "stars": 1277
           }
         }
       ],
@@ -127,7 +127,7 @@
             "last_commit": "2026-05-30T02:29:40Z",
             "owner": "facebookresearch",
             "repo": "sam2",
-            "stars": 19705
+            "stars": 19715
           }
         },
         {
@@ -141,7 +141,7 @@
             "last_commit": "2024-07-24T08:41:52Z",
             "owner": "UZ-SLAMLab",
             "repo": "ORB_SLAM3",
-            "stars": 8959
+            "stars": 8962
           }
         },
         {
@@ -152,10 +152,10 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-15T16:34:08Z",
+            "last_commit": "2026-08-17T22:13:00Z",
             "owner": "nerfstudio-project",
             "repo": "gsplat",
-            "stars": 5544
+            "stars": 5547
           }
         },
         {
@@ -169,7 +169,7 @@
             "last_commit": "2026-04-29T16:53:08Z",
             "owner": "NVlabs",
             "repo": "FoundationPose",
-            "stars": 3485
+            "stars": 3491
           }
         }
       ],
@@ -211,10 +211,10 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-10T20:02:58Z",
+            "last_commit": "2026-08-17T20:03:09Z",
             "owner": "AtsushiSakai",
             "repo": "PythonRobotics",
-            "stars": 30309
+            "stars": 30313
           }
         },
         {
@@ -228,7 +228,7 @@
             "last_commit": "2026-05-11T08:28:29Z",
             "owner": "mithi",
             "repo": "robotics-coursework",
-            "stars": 5122
+            "stars": 5124
           }
         },
         {
@@ -242,7 +242,7 @@
             "last_commit": "2026-07-17T20:28:18Z",
             "owner": "GT-RIPL",
             "repo": "Awesome-LLM-Robotics",
-            "stars": 4451
+            "stars": 4452
           }
         },
         {
@@ -312,7 +312,7 @@
             "last_commit": "2026-02-03T12:09:50Z",
             "owner": "KwanWaiPang",
             "repo": "Awesome-VLA",
-            "stars": 93
+            "stars": 94
           }
         }
       ],
@@ -330,7 +330,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-17T07:11:01.345Z",
+    "last_updated": "2026-08-18T06:58:05.771Z",
     "original_repository": "engyasin/awesome-mechatronics",
     "original_repository_sha": "66556c8d64cdc7cc38f5ee84df4b87b6c8594a08",
     "enhanced_repository": "enhansome/enhansome-mechatronics",
