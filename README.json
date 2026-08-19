@@ -1,207 +1,132 @@
 {
   "items": [
     {
-      "description": "",
-      "items": [],
-      "title": "0. What Mechatronics Means Now"
-    },
-    {
-      "description": "Mechatronics has been redefined roughly once per industrial revolution, and the current redefinition is the sharpest since the 1990s.\n1. Mechanics + electronics → synergistic integration. The 1980s–90s reframing was that mechatronics is not a sum of parts bolted together but a co-design discipline: the mechanism, the sensor choice and the control law are decided together, from the first sketch. This is where the V-model and concurrent engineering come from, and it remains the core professional skill.\n2. Mechatronics → Cyber-Physical Systems. With Industry 4.0 (2011), production systems became networked CPS built on digital twins and standardised information models. Mechatronics stopped being about one machine and started being about fleets of machines with an information layer. The Asset Administration Shell (IEC 63278-1:2023) is the concrete artefact of this shift.\n3. CPS → Human-CPS (Industry 5.0). From around 2020, the framing added human-centricity, resilience and sustainability, giving rise to Human Cyber-Physical Systems and cobots. A useful consequence: three industrial paradigms now coexist on the same shop floor, and a mechatronics engineer is expected to work across all three.\n4. Everything → Physical AI / Embodied AI. The 2024–2026 shift is the largest. Perception-to-action neural policies increasingly replace the hand-designed controller, not just augment it. Terminology is genuinely contested here:\nThe honest reading: Physical AI is a market category; mechatronics is the engineering discipline it depends on. Nothing in a VLA solves backlash, thermal derating, or the fact that a harmonic drive has a torque ripple signature. What has changed is where the difficulty sits — less in writing the controller, more in hardware that is learnable: backdrivable, well-instrumented, repeatable, and cheap enough to collect thousands of demonstrations on.",
-      "items": [],
-      "title": "The definition has moved four times"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "A working definition for 2026"
-    },
-    {
-      "description": "Mechatronics is wide enough that \"where do I start\" is the most common question. Three paths, depending on where you want to end up.",
-      "items": [],
-      "title": "1. Start Here: Learning Paths"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "2. Foundations: Books & Courses"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "Courses worth your time 🎓"
-    },
-    {
-      "description": "The most common failure mode in modern mechatronics projects is a good policy on bad hardware. This section is the mechanical engineering that a mechatronic engineer specifically needs — not general machine design, but the subset where mechanics and control interact.",
-      "items": [],
-      "title": "3. The Mechanical Side, Seen From Mechatronics"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "3.4 Design, simulation and manufacturing tools"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "4. Electronics, Embedded & Edge"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "Microcontrollers & compute"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "5. Industrial Automation, Industry 4.0 / 5.0"
-    },
-    {
-      "description": "",
-      "items": [],
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "🔧 Python Robotics",
+              "description": "🆓 — readable implementations of dozens of algorithms. Excellent for learning. ⭐",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 54376220,
+                "language": "Python",
+                "last_commit": "2026-08-17T20:03:09Z",
+                "owner": "AtsushiSakai",
+                "repo": "PythonRobotics",
+                "stars": 30323
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🔧 Pinocchio",
+              "description": "🆓 — fast rigid-body dynamics with analytical derivatives. The backbone of most modern whole-body controllers.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 24897645,
+                "language": "C++",
+                "last_commit": "2026-08-11T13:06:15Z",
+                "owner": "stack-of-tasks",
+                "repo": "pinocchio",
+                "stars": 3662
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🔧 Crocoddyl",
+              "description": "🆓 — DDP-family optimal control for legged/multi-contact robots. 🔬",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 190190517,
+                "language": "C++",
+                "last_commit": "2026-08-18T08:23:51Z",
+                "owner": "loco-3d",
+                "repo": "crocoddyl",
+                "stars": 1279
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Kinematics, dynamics & optimisation libraries"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "🔧 SAM 2",
+              "description": "🆓 — promptable segmentation for images and video; now a standard preprocessing block in robot perception.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 835452752,
+                "language": "Jupyter Notebook",
+                "last_commit": "2026-05-30T02:29:40Z",
+                "owner": "facebookresearch",
+                "repo": "sam2",
+                "stars": 19723
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🔧 ORB-SLAM3",
+              "description": "🆓 / RTAB-Map 🆓 — visual and RGB-D SLAM.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 280608729,
+                "language": "C++",
+                "last_commit": "2024-07-24T08:41:52Z",
+                "owner": "UZ-SLAMLab",
+                "repo": "ORB_SLAM3",
+                "stars": 8965
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🔧 Nerfstudio",
+              "description": "🆓 / gsplat 🆓 — NeRF and 3D Gaussian splatting; now used for real-to-sim asset capture.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 683223775,
+                "language": "Python",
+                "last_commit": "2026-08-17T22:13:00Z",
+                "owner": "nerfstudio-project",
+                "repo": "gsplat",
+                "stars": 5551
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🔧 FoundationPose",
+              "description": "🆓 — 6-DoF pose estimation for novel objects.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 730898383,
+                "language": "Python",
+                "last_commit": "2026-04-29T16:53:08Z",
+                "owner": "NVlabs",
+                "repo": "FoundationPose",
+                "stars": 3495
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Perception"
+        }
+      ],
       "title": "6. The Robotics Software Stack"
     },
     {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "🔧 Python Robotics",
-          "description": "🆓 — readable implementations of dozens of algorithms. Excellent for learning. ⭐",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-17T20:03:09Z",
-            "owner": "AtsushiSakai",
-            "repo": "PythonRobotics",
-            "stars": 30319
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "🔧 Pinocchio",
-          "description": "🆓 — fast rigid-body dynamics with analytical derivatives. The backbone of most modern whole-body controllers.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2026-08-11T13:06:15Z",
-            "owner": "stack-of-tasks",
-            "repo": "pinocchio",
-            "stars": 3660
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "🔧 Crocoddyl",
-          "description": "🆓 — DDP-family optimal control for legged/multi-contact robots. 🔬",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2026-08-18T08:23:51Z",
-            "owner": "loco-3d",
-            "repo": "crocoddyl",
-            "stars": 1279
-          }
-        }
-      ],
-      "title": "Kinematics, dynamics & optimisation libraries"
-    },
-    {
-      "description": "The physics-engine landscape has been rewritten by GPU acceleration.\nPractical guidance: for learning a policy, use Newton/MuJoCo-Warp or Isaac Lab. For validating a system, use Gazebo or Isaac Sim. For understanding what your controller does, use MuJoCo on CPU with the viewer open.",
-      "items": [],
-      "title": "Simulation — this changed completely in 2025–2026"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "🔧 SAM 2",
-          "description": "🆓 — promptable segmentation for images and video; now a standard preprocessing block in robot perception.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Jupyter Notebook",
-            "last_commit": "2026-05-30T02:29:40Z",
-            "owner": "facebookresearch",
-            "repo": "sam2",
-            "stars": 19722
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "🔧 ORB-SLAM3",
-          "description": "🆓 / RTAB-Map 🆓 — visual and RGB-D SLAM.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2024-07-24T08:41:52Z",
-            "owner": "UZ-SLAMLab",
-            "repo": "ORB_SLAM3",
-            "stars": 8964
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "🔧 Nerfstudio",
-          "description": "🆓 / gsplat 🆓 — NeRF and 3D Gaussian splatting; now used for real-to-sim asset capture.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-17T22:13:00Z",
-            "owner": "nerfstudio-project",
-            "repo": "gsplat",
-            "stars": 5550
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "🔧 FoundationPose",
-          "description": "🆓 — 6-DoF pose estimation for novel objects.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-04-29T16:53:08Z",
-            "owner": "NVlabs",
-            "repo": "FoundationPose",
-            "stars": 3494
-          }
-        }
-      ],
-      "title": "Perception"
-    },
-    {
-      "description": "This is the section that did not exist when this list was first written. In five years, robot manipulation moved from \"write an inverse-kinematics solver and a state machine\" to \"collect demonstrations and train a policy.\" Both approaches are alive; a mechatronic engineer in 2026 needs to know when to reach for which.",
-      "items": [],
-      "title": "7. Learning-Based Control: The New Core"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "7.7 Datasets & benchmarks"
-    },
-    {
-      "description": "\"Agentic\" is the most abused word in industrial marketing right now, so start with the distinction that actually matters:\nThe non-negotiable design rule: the LLM never sits inside the safety function. Interlocks, e-stops and safety-rated logic remain deterministic, certified and independent. An agent may adjust a setpoint inside a human-defined envelope; it may not define the envelope.",
-      "items": [],
-      "title": "8. Agentic AI in Automation and Robotics"
-    },
-    {
-      "description": "Open-source and low-cost platforms, roughly by price.",
-      "items": [],
-      "title": "10. Hardware You Can Actually Buy or Build"
-    },
-    {
-      "description": "Where things stand, honestly assessed.",
-      "items": [],
-      "title": "12. Trends Radar 2026"
-    },
-    {
-      "description": "Robotics & learning",
+      "description": "Robotics & learning\nEngineering & embedded\nAI",
       "items": [
         {
           "node_type": "item",
@@ -210,11 +135,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 54376220,
             "language": "Python",
             "last_commit": "2026-08-17T20:03:09Z",
             "owner": "AtsushiSakai",
             "repo": "PythonRobotics",
-            "stars": 30319
+            "stars": 30323
           }
         },
         {
@@ -224,11 +150,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 95303580,
             "language": null,
             "last_commit": "2026-05-11T08:28:29Z",
             "owner": "mithi",
             "repo": "robotics-coursework",
-            "stars": 5124
+            "stars": 5125
           }
         },
         {
@@ -238,6 +165,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 524119789,
             "language": null,
             "last_commit": "2026-07-17T20:28:18Z",
             "owner": "GT-RIPL",
@@ -252,11 +180,12 @@
           "children": [],
           "repo_info": {
             "archived": true,
+            "id": 105514647,
             "language": null,
             "last_commit": "2023-08-18T07:40:50Z",
             "owner": "fkromer",
             "repo": "awesome-ros2",
-            "stars": 2130
+            "stars": 2129
           }
         },
         {
@@ -266,6 +195,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 91040492,
             "language": null,
             "last_commit": "2024-01-10T07:45:21Z",
             "owner": "ahundt",
@@ -280,6 +210,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 669301097,
             "language": null,
             "last_commit": "2025-06-03T15:13:28Z",
             "owner": "haoranD",
@@ -294,6 +225,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 1132505553,
             "language": null,
             "last_commit": "2026-06-24T11:11:58Z",
             "owner": "keon",
@@ -308,30 +240,157 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 1092126037,
             "language": null,
             "last_commit": "2026-02-03T12:09:50Z",
             "owner": "KwanWaiPang",
             "repo": "Awesome-VLA",
             "stars": 94
           }
+        },
+        {
+          "node_type": "item",
+          "title": "Awesome C++",
+          "description": "Awesome Python",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 21935031,
+            "language": null,
+            "last_commit": "2026-08-19T05:32:17Z",
+            "owner": "fffaraz",
+            "repo": "awesome-cpp",
+            "stars": 72829
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Awesome Embedded",
+          "description": "Awesome Embedded Rust",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 104612770,
+            "language": null,
+            "last_commit": "2026-08-12T03:10:08Z",
+            "owner": "nhivp",
+            "repo": "Awesome-Embedded",
+            "stars": 8999
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Awesome Electronics",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 64177015,
+            "language": null,
+            "last_commit": "2026-01-05T18:43:02Z",
+            "owner": "kitspace",
+            "repo": "awesome-electronics",
+            "stars": 8034
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Awesome Embedded and IoT Security",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 198968285,
+            "language": null,
+            "last_commit": "2023-10-17T12:23:20Z",
+            "owner": "fkie-cad",
+            "repo": "awesome-embedded-and-iot-security",
+            "stars": 2423
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Awesome Mechanical Engineering",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 61523266,
+            "language": null,
+            "last_commit": "2024-09-24T17:54:44Z",
+            "owner": "m2n037",
+            "repo": "awesome-mecheng",
+            "stars": 1660
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Awesome TinyML",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 324236305,
+            "language": null,
+            "last_commit": "2025-12-08T03:06:29Z",
+            "owner": "gigwegbe",
+            "repo": "tinyml-papers-and-projects",
+            "stars": 1031
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Awesome MCP Servers",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 890668799,
+            "language": "TypeScript",
+            "last_commit": "2026-08-18T16:04:56Z",
+            "owner": "modelcontextprotocol",
+            "repo": "servers",
+            "stars": 89684
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Awesome Machine Learning",
+          "description": "Awesome Deep Learning",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 21872392,
+            "language": "Python",
+            "last_commit": "2026-08-11T21:49:59Z",
+            "owner": "josephmisiti",
+            "repo": "awesome-machine-learning",
+            "stars": 74070
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Awesome Computer Vision",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 29357796,
+            "language": null,
+            "last_commit": "2024-05-17T14:24:27Z",
+            "owner": "jbhuang0604",
+            "repo": "awesome-computer-vision",
+            "stars": 23504
+          }
         }
       ],
       "title": "14. Related Awesome Lists"
-    },
-    {
-      "description": "Contributions are welcome — additions, corrections and dead-link reports alike.\nThe rules in short: prefer free and primary sources, mark paid ones with 💵, include the year for anything in the fast-moving sections, and give one line on why a resource is worth someone's time. Keep the mechatronic point of view — this is not a general AI, ME or EE list.\nRead CONTRIBUTING.md for the full guidelines, entry format and marker conventions.",
-      "items": [],
-      "title": "Contributing"
-    },
-    {
-      "description": "To the extent possible under law, the contributors have waived all copyright and related rights to this work.",
-      "items": [],
-      "title": "Licence"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-19T06:59:14.300Z",
+    "last_updated": "2026-08-19T12:40:36.221Z",
     "original_repository": "engyasin/awesome-mechatronics",
+    "original_repository_id": 217821682,
     "original_repository_sha": "66556c8d64cdc7cc38f5ee84df4b87b6c8594a08",
     "enhanced_repository": "enhansome/enhansome-mechatronics",
     "enhanced_repository_description": null,
