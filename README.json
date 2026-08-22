@@ -17,7 +17,7 @@
                 "last_commit": "2026-08-17T20:03:09Z",
                 "owner": "AtsushiSakai",
                 "repo": "PythonRobotics",
-                "stars": 30338
+                "stars": 30345
               }
             },
             {
@@ -32,7 +32,7 @@
                 "last_commit": "2026-08-11T13:06:15Z",
                 "owner": "stack-of-tasks",
                 "repo": "pinocchio",
-                "stars": 3672
+                "stars": 3674
               }
             },
             {
@@ -47,7 +47,7 @@
                 "last_commit": "2026-08-18T08:23:51Z",
                 "owner": "loco-3d",
                 "repo": "crocoddyl",
-                "stars": 1281
+                "stars": 1283
               }
             }
           ],
@@ -69,7 +69,7 @@
                 "last_commit": "2026-05-30T02:29:40Z",
                 "owner": "facebookresearch",
                 "repo": "sam2",
-                "stars": 19735
+                "stars": 19739
               }
             },
             {
@@ -84,7 +84,7 @@
                 "last_commit": "2024-07-24T08:41:52Z",
                 "owner": "UZ-SLAMLab",
                 "repo": "ORB_SLAM3",
-                "stars": 8973
+                "stars": 8975
               }
             },
             {
@@ -99,7 +99,7 @@
                 "last_commit": "2026-08-20T20:44:25Z",
                 "owner": "nerfstudio-project",
                 "repo": "gsplat",
-                "stars": 5562
+                "stars": 5563
               }
             },
             {
@@ -114,7 +114,7 @@
                 "last_commit": "2026-04-29T16:53:08Z",
                 "owner": "NVlabs",
                 "repo": "FoundationPose",
-                "stars": 3498
+                "stars": 3502
               }
             }
           ],
@@ -140,7 +140,7 @@
             "last_commit": "2026-08-17T20:03:09Z",
             "owner": "AtsushiSakai",
             "repo": "PythonRobotics",
-            "stars": 30338
+            "stars": 30345
           }
         },
         {
@@ -155,7 +155,7 @@
             "last_commit": "2026-05-11T08:28:29Z",
             "owner": "mithi",
             "repo": "robotics-coursework",
-            "stars": 5129
+            "stars": 5130
           }
         },
         {
@@ -170,7 +170,7 @@
             "last_commit": "2026-07-17T20:28:18Z",
             "owner": "GT-RIPL",
             "repo": "Awesome-LLM-Robotics",
-            "stars": 4453
+            "stars": 4454
           }
         },
         {
@@ -260,7 +260,7 @@
             "last_commit": "2026-08-19T05:32:17Z",
             "owner": "fffaraz",
             "repo": "awesome-cpp",
-            "stars": 72856
+            "stars": 72867
           }
         },
         {
@@ -275,7 +275,7 @@
             "last_commit": "2026-08-12T03:10:08Z",
             "owner": "nhivp",
             "repo": "Awesome-Embedded",
-            "stars": 9012
+            "stars": 9016
           }
         },
         {
@@ -290,7 +290,7 @@
             "last_commit": "2026-01-05T18:43:02Z",
             "owner": "kitspace",
             "repo": "awesome-electronics",
-            "stars": 8045
+            "stars": 8049
           }
         },
         {
@@ -320,7 +320,7 @@
             "last_commit": "2024-09-24T17:54:44Z",
             "owner": "m2n037",
             "repo": "awesome-mecheng",
-            "stars": 1662
+            "stars": 1664
           }
         },
         {
@@ -350,7 +350,7 @@
             "last_commit": "2026-08-20T01:12:36Z",
             "owner": "modelcontextprotocol",
             "repo": "servers",
-            "stars": 89727
+            "stars": 89768
           }
         },
         {
@@ -362,10 +362,10 @@
             "archived": false,
             "id": 21872392,
             "language": "Python",
-            "last_commit": "2026-08-11T21:49:59Z",
+            "last_commit": "2026-08-21T10:11:51Z",
             "owner": "josephmisiti",
             "repo": "awesome-machine-learning",
-            "stars": 74090
+            "stars": 74105
           }
         },
         {
@@ -380,7 +380,7 @@
             "last_commit": "2024-05-17T14:24:27Z",
             "owner": "jbhuang0604",
             "repo": "awesome-computer-vision",
-            "stars": 23509
+            "stars": 23510
           }
         }
       ],
@@ -388,7 +388,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-21T07:00:45.641Z",
+    "last_updated": "2026-08-22T06:53:59.017Z",
     "original_repository": "engyasin/awesome-mechatronics",
     "original_repository_id": 217821682,
     "original_repository_sha": "66556c8d64cdc7cc38f5ee84df4b87b6c8594a08",
