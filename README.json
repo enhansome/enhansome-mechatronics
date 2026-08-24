@@ -1,6 +1,84 @@
 {
   "items": [
     {
+      "description": "The most common failure mode in modern mechatronics projects is a good policy on bad hardware. This section is the mechanical engineering that a mechatronic engineer specifically needs — not general machine design, but the subset where mechanics and control interact.",
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "PrusaSlicer",
+              "description": "/ OrcaSlicer Slicers 🆓 Printed robot parts: print orientation determines layer-direction strength",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 514553345,
+                "language": "C++",
+                "last_commit": "2026-08-24T09:30:44Z",
+                "owner": "OrcaSlicer",
+                "repo": "OrcaSlicer",
+                "stars": 15474
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "3.4 Design, simulation and manufacturing tools"
+        }
+      ],
+      "title": "3. The Mechanical Side, Seen From Mechatronics"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "🔧 Embassy",
+              "description": "/ 🆓 — async embedded Rust. Increasingly serious for safety-relevant firmware; memory safety without a GC.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 93896299,
+                "language": "Rust",
+                "last_commit": "2026-05-26T18:19:12Z",
+                "owner": "rust-embedded",
+                "repo": "embedded-hal",
+                "stars": 2639
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Firmware & RTOS"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "🔧 MicroFlow",
+              "description": "🆓 — Rust TinyML inference engine; runs NNs on 8-bit MCUs with 2 kB RAM. 📄 paper",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 602958489,
+                "language": "Rust",
+                "last_commit": "2026-05-26T20:51:13Z",
+                "owner": "matteocarnelos",
+                "repo": "microflow-rs",
+                "stars": 190
+              }
+            }
+          ],
+          "description": "Running inference on the machine rather than in the cloud is now a normal part of a mechatronic design, especially for condition monitoring and anomaly detection.",
+          "node_type": "group",
+          "title": "Edge AI / TinyML"
+        }
+      ],
+      "title": "4. Electronics, Embedded & Edge"
+    },
+    {
       "description": null,
       "items": [
         {
@@ -17,7 +95,7 @@
                 "last_commit": "2026-08-17T20:03:09Z",
                 "owner": "AtsushiSakai",
                 "repo": "PythonRobotics",
-                "stars": 30352
+                "stars": 30355
               }
             },
             {
@@ -32,7 +110,7 @@
                 "last_commit": "2026-08-11T13:06:15Z",
                 "owner": "stack-of-tasks",
                 "repo": "pinocchio",
-                "stars": 3677
+                "stars": 3678
               }
             },
             {
@@ -47,13 +125,80 @@
                 "last_commit": "2026-08-18T08:23:51Z",
                 "owner": "loco-3d",
                 "repo": "crocoddyl",
-                "stars": 1283
+                "stars": 1284
               }
             }
           ],
           "description": null,
           "node_type": "group",
           "title": "Kinematics, dynamics & optimisation libraries"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Newton",
+              "description": "🆓 The new centre of gravity. Open-source, GPU-accelerated, differentiable; built on NVIDIA Warp + OpenUSD; developed by NVIDIA + Google DeepMind + Disney Research under the Linux Foundation. v1.0 GA at GTC 2026. Bundles MuJoCo-Warp and Disney's Kamino (closed-loop mechanisms) solvers, SDF collision, hydroelastic contact, and deformables.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 970467647,
+                "language": "Python",
+                "last_commit": "2026-08-24T12:55:12Z",
+                "owner": "newton-physics",
+                "repo": "newton",
+                "stars": 5522
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "MuJoCo Playground",
+              "description": "🆓 Ready-made GPU RL environments",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 898162230,
+                "language": "Python",
+                "last_commit": "2026-08-18T16:38:13Z",
+                "owner": "google-deepmind",
+                "repo": "mujoco_playground",
+                "stars": 2164
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Isaac Lab",
+              "description": "🆓 Large-scale robot learning; v3.0 builds on Newton + PhysX",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 567038244,
+                "language": "Python",
+                "last_commit": "2026-08-24T08:45:53Z",
+                "owner": "isaac-sim",
+                "repo": "IsaacLab",
+                "stars": 7947
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Genesis",
+              "description": "🆓 Fast multi-platform GPU physics; strong on generative scene creation",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 712225112,
+                "language": "Python",
+                "last_commit": "2026-08-23T09:22:18Z",
+                "owner": "Genesis-Embodied-AI",
+                "repo": "genesis-world",
+                "stars": 29792
+              }
+            }
+          ],
+          "description": "The physics-engine landscape has been rewritten by GPU acceleration.\nPractical guidance: for learning a policy, use Newton/MuJoCo-Warp or Isaac Lab. For validating a system, use Gazebo or Isaac Sim. For understanding what your controller does, use MuJoCo on CPU with the viewer open.",
+          "node_type": "group",
+          "title": "Simulation — this changed completely in 2025–2026"
         },
         {
           "children": [
@@ -69,7 +214,7 @@
                 "last_commit": "2026-05-30T02:29:40Z",
                 "owner": "facebookresearch",
                 "repo": "sam2",
-                "stars": 19746
+                "stars": 19749
               }
             },
             {
@@ -84,7 +229,7 @@
                 "last_commit": "2024-07-24T08:41:52Z",
                 "owner": "UZ-SLAMLab",
                 "repo": "ORB_SLAM3",
-                "stars": 8978
+                "stars": 8979
               }
             },
             {
@@ -99,7 +244,7 @@
                 "last_commit": "2026-08-20T20:44:25Z",
                 "owner": "nerfstudio-project",
                 "repo": "gsplat",
-                "stars": 5571
+                "stars": 5573
               }
             },
             {
@@ -114,7 +259,7 @@
                 "last_commit": "2026-04-29T16:53:08Z",
                 "owner": "NVlabs",
                 "repo": "FoundationPose",
-                "stars": 3506
+                "stars": 3508
               }
             }
           ],
@@ -124,6 +269,240 @@
         }
       ],
       "title": "6. The Robotics Software Stack"
+    },
+    {
+      "description": "This is the section that did not exist when this list was first written. In five years, robot manipulation moved from \"write an inverse-kinematics solver and a state machine\" to \"collect demonstrations and train a policy.\" Both approaches are alive; a mechatronic engineer in 2026 needs to know when to reach for which.",
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "📄 Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware (ACT / ALOHA)",
+              "description": "Zhao, Kumar, Levine, Finn, RSS 2023. 🆓 The paper that made cheap bimanual imitation learning work. Start here. ⭐ code · project",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 605310229,
+                "language": "Python",
+                "last_commit": "2024-07-23T19:26:12Z",
+                "owner": "tonyzhaozh",
+                "repo": "act",
+                "stars": 2173
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "7.1 Imitation learning & action chunking"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "📄 Diffusion Policy: Visuomotor Policy Learning via Action Diffusion",
+              "description": "Chi et al., RSS 2023 / IJRR 2025. 🆓 The foundational paper. ⭐ code · arXiv",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 610943527,
+                "language": "Python",
+                "last_commit": "2024-12-24T19:48:03Z",
+                "owner": "real-stanford",
+                "repo": "diffusion_policy",
+                "stars": 4484
+              }
+            }
+          ],
+          "description": "A diffusion policy generates robot actions by iteratively denoising, exactly as image diffusion models generate pixels. It handles multimodal demonstrations naturally and has become the default strong baseline.",
+          "node_type": "group",
+          "title": "7.2 Diffusion policies"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "OpenVLA",
+              "description": "7B 🆓 Stanford/Berkeley, 2024. ~970k Open X-Embodiment episodes; DINOv2 + SigLIP + Llama 2. The reference open VLA. 📄 code",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 814864073,
+                "language": "Python",
+                "last_commit": "2025-03-23T23:41:01Z",
+                "owner": "openvla",
+                "repo": "openvla",
+                "stars": 6886
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "π₀ / openpi",
+              "description": "~3B 🆓 weights Physical Intelligence. Flow-matching action expert on a VLM backbone; pretrained on 10,000+ hours. Smoothest trajectories in contact-rich tasks. 📄",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 876210014,
+                "language": "Python",
+                "last_commit": "2026-06-16T00:14:01Z",
+                "owner": "Physical-Intelligence",
+                "repo": "openpi",
+                "stars": 13449
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Isaac GR00T N",
+              "description": "~2–3B 🆓 NVIDIA. Dual-system: slow VLM planner (System 2) + fast diffusion transformer controller (System 1). N1 (Mar 2025) → N1.5 → N1.6 (Dec 2025, Cosmos-2B backbone). Built for humanoids. 📄",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 946829547,
+                "language": "Python",
+                "last_commit": "2026-08-20T21:25:42Z",
+                "owner": "NVIDIA",
+                "repo": "Isaac-GR00T",
+                "stars": 7903
+              }
+            }
+          ],
+          "description": "A VLA takes camera images plus a natural-language instruction and outputs robot actions, end to end. This is the fastest-moving area in robotics.\nOpen models you can actually run:\nSurveys — read one of these before the papers:",
+          "node_type": "group",
+          "title": "7.4 Vision-Language-Action models (VLAs)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "🔧 rsl_rl",
+              "description": "🆓 — the PPO implementation behind most legged-robot papers.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 418503284,
+                "language": "Python",
+                "last_commit": "2026-08-18T15:44:51Z",
+                "owner": "leggedrobotics",
+                "repo": "rsl_rl",
+                "stars": 2912
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "7.6 Reinforcement learning on real hardware"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "SimplerEnv",
+              "description": "🆓 Reproducible simulated evaluation of real-robot VLAs",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 776527409,
+                "language": "Jupyter Notebook",
+                "last_commit": "2025-12-20T13:08:29Z",
+                "owner": "simpler-env",
+                "repo": "SimplerEnv",
+                "stars": 1146
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "7.7 Datasets & benchmarks"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "🔧 LeRobot",
+              "description": "🆓 — Hugging Face's end-to-end robot learning library. , no ROS required. Includes ACT, Diffusion Policy, VQ-BeT, π₀, SmolVLA, HIL-SERL, TD-MPC. ⭐ 📄 ICLR 2026",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 748713144,
+                "language": "Python",
+                "last_commit": "2026-08-24T09:58:23Z",
+                "owner": "huggingface",
+                "repo": "lerobot",
+                "stars": 26872
+              }
+            }
+          ],
+          "description": "The single highest-value practical exercise in modern mechatronics. Under €500 of hardware and one afternoon.\nRealistic expectations: ~50 demonstrations and ~30 minutes on an RTX 3060 gets a working single-task ACT policy. Language conditioning and generalisation need far more. For a single fixed task, ACT or Diffusion Policy usually beats a general VLA — reach for a VLA when you need language conditioning or cross-task transfer.",
+          "node_type": "group",
+          "title": "7.8 Hands-on: train your own policy 🧪"
+        }
+      ],
+      "title": "7. Learning-Based Control: The New Core"
+    },
+    {
+      "description": "Open-source and low-cost platforms, roughly by price.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "SO-101 / SO-ARM101",
+          "description": "€120–350 6-DoF arm pair 🆓 open hardware. Leader/follower teleoperation; the LeRobot reference platform. Kits from Hiwonder, Seeed, WowRobo. ⭐",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 798981945,
+            "language": null,
+            "last_commit": "2026-08-05T09:21:21Z",
+            "owner": "TheRobotStudio",
+            "repo": "SO-ARM100",
+            "stars": 7179
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "LeKiwi",
+          "description": "€400 Mobile manipulator SO-101 on a holonomic base; open source",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 927393896,
+            "language": null,
+            "last_commit": "2026-08-05T09:25:59Z",
+            "owner": "SIGRobotics-UIUC",
+            "repo": "LeKiwi",
+            "stars": 1392
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Koch v1.1",
+          "description": "€250 5-DoF arm The predecessor design; still a good build",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 830731356,
+            "language": null,
+            "last_commit": "2024-09-17T13:55:36Z",
+            "owner": "jess-moss",
+            "repo": "koch-v1-1",
+            "stars": 725
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Open Duck Mini",
+          "description": "€400 Bipedal Approachable legged-robot learning platform",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 801580724,
+            "language": "Python",
+            "last_commit": "2026-01-31T10:28:29Z",
+            "owner": "apirrone",
+            "repo": "Open_Duck_Mini",
+            "stars": 3513
+          }
+        }
+      ],
+      "title": "10. Hardware You Can Actually Buy or Build"
     },
     {
       "description": "Robotics & learning\nEngineering & embedded\nAI",
@@ -140,7 +519,7 @@
             "last_commit": "2026-08-17T20:03:09Z",
             "owner": "AtsushiSakai",
             "repo": "PythonRobotics",
-            "stars": 30352
+            "stars": 30355
           }
         },
         {
@@ -155,7 +534,7 @@
             "last_commit": "2026-05-11T08:28:29Z",
             "owner": "mithi",
             "repo": "robotics-coursework",
-            "stars": 5156
+            "stars": 5163
           }
         },
         {
@@ -230,7 +609,7 @@
             "last_commit": "2026-06-24T11:11:58Z",
             "owner": "keon",
             "repo": "awesome-physical-ai",
-            "stars": 395
+            "stars": 396
           }
         },
         {
@@ -260,7 +639,7 @@
             "last_commit": "2026-08-22T08:36:07Z",
             "owner": "fffaraz",
             "repo": "awesome-cpp",
-            "stars": 72902
+            "stars": 72909
           }
         },
         {
@@ -275,7 +654,7 @@
             "last_commit": "2026-08-12T03:10:08Z",
             "owner": "nhivp",
             "repo": "Awesome-Embedded",
-            "stars": 9021
+            "stars": 9024
           }
         },
         {
@@ -290,7 +669,7 @@
             "last_commit": "2026-01-05T18:43:02Z",
             "owner": "kitspace",
             "repo": "awesome-electronics",
-            "stars": 8054
+            "stars": 8058
           }
         },
         {
@@ -320,7 +699,7 @@
             "last_commit": "2024-09-24T17:54:44Z",
             "owner": "m2n037",
             "repo": "awesome-mecheng",
-            "stars": 1666
+            "stars": 1668
           }
         },
         {
@@ -350,7 +729,7 @@
             "last_commit": "2026-08-20T01:12:36Z",
             "owner": "modelcontextprotocol",
             "repo": "servers",
-            "stars": 89817
+            "stars": 89830
           }
         },
         {
@@ -365,7 +744,7 @@
             "last_commit": "2026-08-21T10:11:51Z",
             "owner": "josephmisiti",
             "repo": "awesome-machine-learning",
-            "stars": 74137
+            "stars": 74142
           }
         },
         {
@@ -380,7 +759,7 @@
             "last_commit": "2024-05-17T14:24:27Z",
             "owner": "jbhuang0604",
             "repo": "awesome-computer-vision",
-            "stars": 23514
+            "stars": 23517
           }
         }
       ],
@@ -388,7 +767,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T07:14:30.009Z",
+    "last_updated": "2026-08-24T14:34:36.381Z",
     "original_repository": "engyasin/awesome-mechatronics",
     "original_repository_id": 217821682,
     "original_repository_sha": "66556c8d64cdc7cc38f5ee84df4b87b6c8594a08",
