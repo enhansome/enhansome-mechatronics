@@ -14,7 +14,7 @@
                 "archived": false,
                 "id": 514553345,
                 "language": "C++",
-                "last_commit": "2026-08-25T05:54:44Z",
+                "last_commit": "2026-08-25T06:47:17Z",
                 "owner": "OrcaSlicer",
                 "repo": "OrcaSlicer",
                 "stars": 15482
@@ -144,7 +144,7 @@
                 "archived": false,
                 "id": 970467647,
                 "language": "Python",
-                "last_commit": "2026-08-25T06:25:08Z",
+                "last_commit": "2026-08-25T07:01:22Z",
                 "owner": "newton-physics",
                 "repo": "newton",
                 "stars": 5526
@@ -192,7 +192,7 @@
                 "last_commit": "2026-08-24T22:16:22Z",
                 "owner": "Genesis-Embodied-AI",
                 "repo": "genesis-world",
-                "stars": 29795
+                "stars": 29796
               }
             }
           ],
@@ -331,7 +331,7 @@
                 "last_commit": "2025-03-23T23:41:01Z",
                 "owner": "openvla",
                 "repo": "openvla",
-                "stars": 6891
+                "stars": 6892
               }
             },
             {
@@ -346,7 +346,7 @@
                 "last_commit": "2026-08-24T16:27:13Z",
                 "owner": "Physical-Intelligence",
                 "repo": "openpi",
-                "stars": 13458
+                "stars": 13463
               }
             },
             {
@@ -361,7 +361,7 @@
                 "last_commit": "2026-08-20T21:25:42Z",
                 "owner": "NVIDIA",
                 "repo": "Isaac-GR00T",
-                "stars": 7908
+                "stars": 7909
               }
             }
           ],
@@ -453,7 +453,7 @@
             "last_commit": "2026-08-05T09:21:21Z",
             "owner": "TheRobotStudio",
             "repo": "SO-ARM100",
-            "stars": 7186
+            "stars": 7187
           }
         },
         {
@@ -729,7 +729,7 @@
             "last_commit": "2026-08-20T01:12:36Z",
             "owner": "modelcontextprotocol",
             "repo": "servers",
-            "stars": 89834
+            "stars": 89836
           }
         },
         {
@@ -767,7 +767,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-25T06:28:08.616Z",
+    "last_updated": "2026-08-25T07:01:57.128Z",
     "original_repository": "engyasin/awesome-mechatronics",
     "original_repository_id": 217821682,
     "original_repository_sha": "66556c8d64cdc7cc38f5ee84df4b87b6c8594a08",
