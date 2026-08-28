@@ -14,11 +14,12 @@
                 "archived": false,
                 "id": 514553345,
                 "language": "C++",
-                "last_commit": "2026-08-27T12:32:53Z",
+                "last_commit": "2026-08-28T13:10:22Z",
                 "owner": "OrcaSlicer",
                 "repo": "OrcaSlicer",
-                "stars": 15506
-              }
+                "stars": 15512
+              },
+              "first_seen": "2026-08-28T18:33:43.682Z"
             }
           ],
           "description": null,
@@ -46,7 +47,8 @@
                 "owner": "rust-embedded",
                 "repo": "embedded-hal",
                 "stars": 2640
-              }
+              },
+              "first_seen": "2026-08-28T18:33:43.682Z"
             }
           ],
           "description": null,
@@ -68,7 +70,8 @@
                 "owner": "matteocarnelos",
                 "repo": "microflow-rs",
                 "stars": 190
-              }
+              },
+              "first_seen": "2026-08-28T18:33:43.682Z"
             }
           ],
           "description": "Running inference on the machine rather than in the cloud is now a normal part of a mechatronic design, especially for condition monitoring and anomaly detection.",
@@ -95,8 +98,9 @@
                 "last_commit": "2026-08-24T20:02:57Z",
                 "owner": "AtsushiSakai",
                 "repo": "PythonRobotics",
-                "stars": 30395
-              }
+                "stars": 30402
+              },
+              "first_seen": "2026-08-28T18:33:43.682Z"
             },
             {
               "node_type": "item",
@@ -107,11 +111,12 @@
                 "archived": false,
                 "id": 24897645,
                 "language": "C++",
-                "last_commit": "2026-08-26T23:45:22Z",
+                "last_commit": "2026-08-28T08:01:08Z",
                 "owner": "stack-of-tasks",
                 "repo": "pinocchio",
-                "stars": 3686
-              }
+                "stars": 3690
+              },
+              "first_seen": "2026-08-28T18:33:43.682Z"
             },
             {
               "node_type": "item",
@@ -126,7 +131,8 @@
                 "owner": "loco-3d",
                 "repo": "crocoddyl",
                 "stars": 1288
-              }
+              },
+              "first_seen": "2026-08-28T18:33:43.682Z"
             }
           ],
           "description": null,
@@ -144,11 +150,12 @@
                 "archived": false,
                 "id": 970467647,
                 "language": "Python",
-                "last_commit": "2026-08-27T17:26:29Z",
+                "last_commit": "2026-08-28T15:25:15Z",
                 "owner": "newton-physics",
                 "repo": "newton",
-                "stars": 5543
-              }
+                "stars": 5551
+              },
+              "first_seen": "2026-08-28T18:33:43.682Z"
             },
             {
               "node_type": "item",
@@ -163,7 +170,8 @@
                 "owner": "google-deepmind",
                 "repo": "mujoco_playground",
                 "stars": 2168
-              }
+              },
+              "first_seen": "2026-08-28T18:33:43.682Z"
             },
             {
               "node_type": "item",
@@ -174,11 +182,12 @@
                 "archived": false,
                 "id": 567038244,
                 "language": "Python",
-                "last_commit": "2026-08-27T13:42:43Z",
+                "last_commit": "2026-08-28T15:16:29Z",
                 "owner": "isaac-sim",
                 "repo": "IsaacLab",
-                "stars": 7974
-              }
+                "stars": 7988
+              },
+              "first_seen": "2026-08-28T18:33:43.682Z"
             },
             {
               "node_type": "item",
@@ -189,11 +198,12 @@
                 "archived": false,
                 "id": 712225112,
                 "language": "Python",
-                "last_commit": "2026-08-26T16:28:42Z",
+                "last_commit": "2026-08-28T11:53:22Z",
                 "owner": "Genesis-Embodied-AI",
                 "repo": "genesis-world",
-                "stars": 29815
-              }
+                "stars": 29820
+              },
+              "first_seen": "2026-08-28T18:33:43.682Z"
             }
           ],
           "description": "The physics-engine landscape has been rewritten by GPU acceleration.\nPractical guidance: for learning a policy, use Newton/MuJoCo-Warp or Isaac Lab. For validating a system, use Gazebo or Isaac Sim. For understanding what your controller does, use MuJoCo on CPU with the viewer open.",
@@ -214,8 +224,9 @@
                 "last_commit": "2026-05-30T02:29:40Z",
                 "owner": "facebookresearch",
                 "repo": "sam2",
-                "stars": 19773
-              }
+                "stars": 19777
+              },
+              "first_seen": "2026-08-28T18:33:43.682Z"
             },
             {
               "node_type": "item",
@@ -229,8 +240,9 @@
                 "last_commit": "2024-07-24T08:41:52Z",
                 "owner": "UZ-SLAMLab",
                 "repo": "ORB_SLAM3",
-                "stars": 8987
-              }
+                "stars": 8991
+              },
+              "first_seen": "2026-08-28T18:33:43.682Z"
             },
             {
               "node_type": "item",
@@ -244,8 +256,9 @@
                 "last_commit": "2026-08-20T20:44:25Z",
                 "owner": "nerfstudio-project",
                 "repo": "gsplat",
-                "stars": 5593
-              }
+                "stars": 5602
+              },
+              "first_seen": "2026-08-28T18:33:43.682Z"
             },
             {
               "node_type": "item",
@@ -259,8 +272,9 @@
                 "last_commit": "2026-04-29T16:53:08Z",
                 "owner": "NVlabs",
                 "repo": "FoundationPose",
-                "stars": 3517
-              }
+                "stars": 3520
+              },
+              "first_seen": "2026-08-28T18:33:43.682Z"
             }
           ],
           "description": null,
@@ -288,7 +302,8 @@
                 "owner": "tonyzhaozh",
                 "repo": "act",
                 "stars": 2179
-              }
+              },
+              "first_seen": "2026-08-28T18:33:43.682Z"
             }
           ],
           "description": null,
@@ -309,8 +324,9 @@
                 "last_commit": "2024-12-24T19:48:03Z",
                 "owner": "real-stanford",
                 "repo": "diffusion_policy",
-                "stars": 4495
-              }
+                "stars": 4497
+              },
+              "first_seen": "2026-08-28T18:33:43.682Z"
             }
           ],
           "description": "A diffusion policy generates robot actions by iteratively denoising, exactly as image diffusion models generate pixels. It handles multimodal demonstrations naturally and has become the default strong baseline.",
@@ -331,8 +347,9 @@
                 "last_commit": "2025-03-23T23:41:01Z",
                 "owner": "openvla",
                 "repo": "openvla",
-                "stars": 6909
-              }
+                "stars": 6911
+              },
+              "first_seen": "2026-08-28T18:33:43.682Z"
             },
             {
               "node_type": "item",
@@ -346,8 +363,9 @@
                 "last_commit": "2026-08-24T16:27:13Z",
                 "owner": "Physical-Intelligence",
                 "repo": "openpi",
-                "stars": 13509
-              }
+                "stars": 13521
+              },
+              "first_seen": "2026-08-28T18:33:43.682Z"
             },
             {
               "node_type": "item",
@@ -361,8 +379,9 @@
                 "last_commit": "2026-08-20T21:25:42Z",
                 "owner": "NVIDIA",
                 "repo": "Isaac-GR00T",
-                "stars": 7932
-              }
+                "stars": 7945
+              },
+              "first_seen": "2026-08-28T18:33:43.682Z"
             }
           ],
           "description": "A VLA takes camera images plus a natural-language instruction and outputs robot actions, end to end. This is the fastest-moving area in robotics.\nOpen models you can actually run:\nSurveys — read one of these before the papers:",
@@ -380,11 +399,12 @@
                 "archived": false,
                 "id": 418503284,
                 "language": "Python",
-                "last_commit": "2026-08-27T07:20:45Z",
+                "last_commit": "2026-08-28T11:53:15Z",
                 "owner": "leggedrobotics",
                 "repo": "rsl_rl",
-                "stars": 2918
-              }
+                "stars": 2919
+              },
+              "first_seen": "2026-08-28T18:33:43.682Z"
             }
           ],
           "description": null,
@@ -405,8 +425,9 @@
                 "last_commit": "2025-12-20T13:08:29Z",
                 "owner": "simpler-env",
                 "repo": "SimplerEnv",
-                "stars": 1147
-              }
+                "stars": 1149
+              },
+              "first_seen": "2026-08-28T18:33:43.682Z"
             }
           ],
           "description": null,
@@ -424,11 +445,12 @@
                 "archived": false,
                 "id": 748713144,
                 "language": "Python",
-                "last_commit": "2026-08-27T16:02:23Z",
+                "last_commit": "2026-08-28T18:33:21Z",
                 "owner": "huggingface",
                 "repo": "lerobot",
-                "stars": 26976
-              }
+                "stars": 27017
+              },
+              "first_seen": "2026-08-28T18:33:43.682Z"
             }
           ],
           "description": "The single highest-value practical exercise in modern mechatronics. Under €500 of hardware and one afternoon.\nRealistic expectations: ~50 demonstrations and ~30 minutes on an RTX 3060 gets a working single-task ACT policy. Language conditioning and generalisation need far more. For a single fixed task, ACT or Diffusion Policy usually beats a general VLA — reach for a VLA when you need language conditioning or cross-task transfer.",
@@ -453,8 +475,9 @@
             "last_commit": "2026-08-05T09:21:21Z",
             "owner": "TheRobotStudio",
             "repo": "SO-ARM100",
-            "stars": 7210
-          }
+            "stars": 7222
+          },
+          "first_seen": "2026-08-28T18:33:43.682Z"
         },
         {
           "node_type": "item",
@@ -468,8 +491,9 @@
             "last_commit": "2026-08-05T09:25:59Z",
             "owner": "SIGRobotics-UIUC",
             "repo": "LeKiwi",
-            "stars": 1393
-          }
+            "stars": 1394
+          },
+          "first_seen": "2026-08-28T18:33:43.682Z"
         },
         {
           "node_type": "item",
@@ -483,8 +507,9 @@
             "last_commit": "2024-09-17T13:55:36Z",
             "owner": "jess-moss",
             "repo": "koch-v1-1",
-            "stars": 726
-          }
+            "stars": 727
+          },
+          "first_seen": "2026-08-28T18:33:43.682Z"
         },
         {
           "node_type": "item",
@@ -498,8 +523,9 @@
             "last_commit": "2026-01-31T10:28:29Z",
             "owner": "apirrone",
             "repo": "Open_Duck_Mini",
-            "stars": 3531
-          }
+            "stars": 3572
+          },
+          "first_seen": "2026-08-28T18:33:43.682Z"
         }
       ],
       "title": "10. Hardware You Can Actually Buy or Build"
@@ -519,8 +545,9 @@
             "last_commit": "2026-08-24T20:02:57Z",
             "owner": "AtsushiSakai",
             "repo": "PythonRobotics",
-            "stars": 30395
-          }
+            "stars": 30402
+          },
+          "first_seen": "2026-08-28T18:33:43.682Z"
         },
         {
           "node_type": "item",
@@ -534,8 +561,9 @@
             "last_commit": "2026-08-27T11:28:47Z",
             "owner": "mithi",
             "repo": "robotics-coursework",
-            "stars": 5172
-          }
+            "stars": 5176
+          },
+          "first_seen": "2026-08-28T18:33:43.682Z"
         },
         {
           "node_type": "item",
@@ -549,8 +577,9 @@
             "last_commit": "2026-07-17T20:28:18Z",
             "owner": "GT-RIPL",
             "repo": "Awesome-LLM-Robotics",
-            "stars": 4457
-          }
+            "stars": 4459
+          },
+          "first_seen": "2026-08-28T18:33:43.682Z"
         },
         {
           "node_type": "item",
@@ -564,8 +593,9 @@
             "last_commit": "2023-08-18T07:40:50Z",
             "owner": "fkromer",
             "repo": "awesome-ros2",
-            "stars": 2132
-          }
+            "stars": 2133
+          },
+          "first_seen": "2026-08-28T18:33:43.682Z"
         },
         {
           "node_type": "item",
@@ -579,8 +609,9 @@
             "last_commit": "2024-01-10T07:45:21Z",
             "owner": "ahundt",
             "repo": "awesome-robotics",
-            "stars": 1479
-          }
+            "stars": 1480
+          },
+          "first_seen": "2026-08-28T18:33:43.682Z"
         },
         {
           "node_type": "item",
@@ -595,7 +626,8 @@
             "owner": "haoranD",
             "repo": "Awesome-Embodied-AI",
             "stars": 528
-          }
+          },
+          "first_seen": "2026-08-28T18:33:43.682Z"
         },
         {
           "node_type": "item",
@@ -610,7 +642,8 @@
             "owner": "keon",
             "repo": "awesome-physical-ai",
             "stars": 403
-          }
+          },
+          "first_seen": "2026-08-28T18:33:43.682Z"
         },
         {
           "node_type": "item",
@@ -625,7 +658,8 @@
             "owner": "KwanWaiPang",
             "repo": "Awesome-VLA",
             "stars": 96
-          }
+          },
+          "first_seen": "2026-08-28T18:33:43.682Z"
         },
         {
           "node_type": "item",
@@ -639,8 +673,9 @@
             "last_commit": "2026-08-22T08:36:07Z",
             "owner": "fffaraz",
             "repo": "awesome-cpp",
-            "stars": 72964
-          }
+            "stars": 72979
+          },
+          "first_seen": "2026-08-28T18:33:43.682Z"
         },
         {
           "node_type": "item",
@@ -654,8 +689,9 @@
             "last_commit": "2026-08-12T03:10:08Z",
             "owner": "nhivp",
             "repo": "Awesome-Embedded",
-            "stars": 9047
-          }
+            "stars": 9050
+          },
+          "first_seen": "2026-08-28T18:33:43.682Z"
         },
         {
           "node_type": "item",
@@ -669,8 +705,9 @@
             "last_commit": "2026-01-05T18:43:02Z",
             "owner": "kitspace",
             "repo": "awesome-electronics",
-            "stars": 8069
-          }
+            "stars": 8071
+          },
+          "first_seen": "2026-08-28T18:33:43.682Z"
         },
         {
           "node_type": "item",
@@ -684,8 +721,9 @@
             "last_commit": "2023-10-17T12:23:20Z",
             "owner": "fkie-cad",
             "repo": "awesome-embedded-and-iot-security",
-            "stars": 2430
-          }
+            "stars": 2431
+          },
+          "first_seen": "2026-08-28T18:33:43.682Z"
         },
         {
           "node_type": "item",
@@ -700,7 +738,8 @@
             "owner": "m2n037",
             "repo": "awesome-mecheng",
             "stars": 1672
-          }
+          },
+          "first_seen": "2026-08-28T18:33:43.682Z"
         },
         {
           "node_type": "item",
@@ -714,8 +753,9 @@
             "last_commit": "2025-12-08T03:06:29Z",
             "owner": "gigwegbe",
             "repo": "tinyml-papers-and-projects",
-            "stars": 1031
-          }
+            "stars": 1032
+          },
+          "first_seen": "2026-08-28T18:33:43.682Z"
         },
         {
           "node_type": "item",
@@ -726,11 +766,12 @@
             "archived": false,
             "id": 890668799,
             "language": "TypeScript",
-            "last_commit": "2026-08-20T01:12:36Z",
+            "last_commit": "2026-08-28T17:58:20Z",
             "owner": "modelcontextprotocol",
             "repo": "servers",
-            "stars": 89909
-          }
+            "stars": 89933
+          },
+          "first_seen": "2026-08-28T18:33:43.682Z"
         },
         {
           "node_type": "item",
@@ -744,8 +785,9 @@
             "last_commit": "2026-08-27T15:29:10Z",
             "owner": "josephmisiti",
             "repo": "awesome-machine-learning",
-            "stars": 74181
-          }
+            "stars": 74198
+          },
+          "first_seen": "2026-08-28T18:33:43.682Z"
         },
         {
           "node_type": "item",
@@ -760,14 +802,15 @@
             "owner": "jbhuang0604",
             "repo": "awesome-computer-vision",
             "stars": 23520
-          }
+          },
+          "first_seen": "2026-08-28T18:33:43.682Z"
         }
       ],
       "title": "14. Related Awesome Lists"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T17:34:55.034Z",
+    "last_updated": "2026-08-28T18:33:43.682Z",
     "original_repository_info": {
       "archived": false,
       "id": 217821682,
