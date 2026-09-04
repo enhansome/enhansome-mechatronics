@@ -146,7 +146,7 @@ You want to build something that moves before you learn Laplace transforms. This
 1. 📖 [Underactuated Robotics](https://underactuated.mit.edu/) and [Robotic Manipulation](https://manipulation.mit.edu/) — Russ Tedrake, MIT. 🆓 Free, interactive, with Drake notebooks. The best treatment anywhere of *why* contact-rich control is hard.
 2. 📄 [Towards a Unified Understanding of Robot Manipulation: A Comprehensive Survey](https://arxiv.org/abs/2510.10903) — 2025. The map of the whole manipulation literature.
 3. 📄 [Vision-Language-Action Models for Robotics: A Review Towards Real-World Applications](https://vla-survey.github.io/) — Kawaharazuka et al., *IEEE Access* 2025. Has a searchable database of every VLA.
-4. Pick a benchmark ([LIBERO](https://libero-project.github.io/), [SimplerEnv](https://github.com/simpler-env/SimplerEnv) ⭐ 1,154 | 🐛 34 | 🌐 Jupyter Notebook | 📅 2025-12-20, [RoboCasa](https://robocasa.ai/)) and reproduce one result before you propose anything.
+4. Pick a benchmark ([LIBERO](https://libero-project.github.io/), [SimplerEnv](https://github.com/simpler-env/SimplerEnv) ⭐ 1,155 | 🐛 35 | 🌐 Jupyter Notebook | 📅 2025-12-20, [RoboCasa](https://robocasa.ai/)) and reproduce one result before you propose anything.
 
 ***
 
@@ -297,11 +297,11 @@ The idea that the body itself performs computation — that a well-designed grip
 | [nTop](https://www.ntop.com/)                                                                                                                               | Implicit modelling       | 💵                 | Lattices, topology optimisation, field-driven design                       |
 | [Ansys](https://www.ansys.com/) / [COMSOL](https://www.comsol.com/)                                                                                         | Multiphysics FEA         | 💵                 | Thermal + structural + electromagnetic coupling                            |
 | [CalculiX](https://www.calculix.de/) / [Code\_Aster](https://code-aster.org/)                                                                               | FEA solver               | 🆓                 | Free FEA; usable via FreeCAD FEM workbench                                 |
-| [ToOptix](https://github.com/DerBaumeister/toOptix) / [ToPy](https://github.com/williamhunter/topy) ⭐ 574 \| 🐛 11 \| 🌐 Python \| 📅 2022-08-31            | Topology optimisation    | 🆓                 | Learn the method before paying for a suite                                 |
+| [ToOptix](https://github.com/DerBaumeister/toOptix) / [ToPy](https://github.com/williamhunter/topy) ⭐ 575 \| 🐛 11 \| 🌐 Python \| 📅 2022-08-31            | Topology optimisation    | 🆓                 | Learn the method before paying for a suite                                 |
 | [OpenModelica](https://openmodelica.org/)                                                                                                                   | Acausal multi-domain sim | 🆓                 | The right tool for mechanical+hydraulic+electrical system models           |
 | [Simscape](https://www.mathworks.com/products/simscape.html)                                                                                                | Multi-domain sim         | 💵                 | The commercial equivalent, tightly coupled to Simulink                     |
 | [Blender](https://www.blender.org/)                                                                                                                         | 3D modelling             | 🆓                 | Not CAD, but the standard for robot visual meshes and rendering            |
-| [PrusaSlicer](https://www.prusa3d.com/prusaslicer/) / [OrcaSlicer](https://github.com/SoftFever/OrcaSlicer) ⭐ 15,567 \| 🐛 2,665 \| 🌐 C++ \| 📅 2026-09-03 | Slicers                  | 🆓                 | Printed robot parts: print orientation determines layer-direction strength |
+| [PrusaSlicer](https://www.prusa3d.com/prusaslicer/) / [OrcaSlicer](https://github.com/SoftFever/OrcaSlicer) ⭐ 15,578 \| 🐛 2,666 \| 🌐 C++ \| 📅 2026-09-04 | Slicers                  | 🆓                 | Printed robot parts: print orientation determines layer-direction strength |
 
 ### 3.5 Practical mechanical checklist for mechatronic builds 🧪
 
@@ -349,7 +349,7 @@ The idea that the body itself performs computation — that a well-designed grip
 
 Running inference on the machine rather than in the cloud is now a normal part of a mechatronic design, especially for condition monitoring and anomaly detection.
 
-* 🔧 [MicroFlow](https://github.com/matteocarnelos/microflow-rs) ⭐ 190 | 🐛 8 | 🌐 Rust | 📅 2026-05-26 🆓 — Rust TinyML inference engine; runs NNs on 8-bit MCUs with 2 kB RAM. 📄 [paper](https://arxiv.org/abs/2409.19432)
+* 🔧 [MicroFlow](https://github.com/matteocarnelos/microflow-rs) ⭐ 190 | 🐛 9 | 🌐 Rust | 📅 2026-05-26 🆓 — Rust TinyML inference engine; runs NNs on 8-bit MCUs with 2 kB RAM. 📄 [paper](https://arxiv.org/abs/2409.19432)
 * 🔧 [Edge Impulse](https://edgeimpulse.com/) 💵/free tier — end-to-end TinyML: data capture → training → C++ export.
 * 🔧 [TensorFlow Lite for Microcontrollers / LiteRT](https://ai.google.dev/edge/litert/microcontrollers/overview) 🆓
 * 🔧 [microTVM](https://tvm.apache.org/docs/topic/microtvm/index.html) 🆓 — compiler-based deployment, better control over memory.
@@ -432,9 +432,9 @@ This is the part of Industry 4.0 that actually matters and that most curricula s
 
 ### Kinematics, dynamics & optimisation libraries
 
-* 🔧 [Python Robotics](https://github.com/AtsushiSakai/PythonRobotics) ⭐ 30,434 | 🐛 53 | 🌐 Python | 📅 2026-09-02 🆓 — readable implementations of dozens of algorithms. **Excellent for learning.** ⭐
-* 🔧 [Pinocchio](https://github.com/stack-of-tasks/pinocchio) ⭐ 3,706 | 🐛 104 | 🌐 C++ | 📅 2026-09-03 🆓 — fast rigid-body dynamics with analytical derivatives. The backbone of most modern whole-body controllers.
-* 🔧 [Crocoddyl](https://github.com/loco-3d/crocoddyl) ⭐ 1,296 | 🐛 19 | 🌐 C++ | 📅 2026-09-01 🆓 — DDP-family optimal control for legged/multi-contact robots. 🔬
+* 🔧 [Python Robotics](https://github.com/AtsushiSakai/PythonRobotics) ⭐ 30,443 | 🐛 54 | 🌐 Python | 📅 2026-09-02 🆓 — readable implementations of dozens of algorithms. **Excellent for learning.** ⭐
+* 🔧 [Pinocchio](https://github.com/stack-of-tasks/pinocchio) ⭐ 3,714 | 🐛 102 | 🌐 C++ | 📅 2026-09-03 🆓 — fast rigid-body dynamics with analytical derivatives. The backbone of most modern whole-body controllers.
+* 🔧 [Crocoddyl](https://github.com/loco-3d/crocoddyl) ⭐ 1,297 | 🐛 19 | 🌐 C++ | 📅 2026-09-01 🆓 — DDP-family optimal control for legged/multi-contact robots. 🔬
 * 🔧 [Drake](https://drake.mit.edu/) 🆓 — MIT's toolbox: modelling, contact, trajectory optimisation, convex programs. 🔬
 * 🔧 [CasADi](https://web.casadi.org/) 🆓 — symbolic framework for nonlinear optimisation and optimal control.
 * 🔧 [acados](https://docs.acados.org/) 🆓 — embedded NMPC that actually runs at kHz rates on real hardware.
@@ -446,12 +446,12 @@ The physics-engine landscape has been rewritten by GPU acceleration.
 
 | Simulator                                                                                                                 | Cost   | Best for                                                                                                                                                                                                                                                                                                                                          |
 | ------------------------------------------------------------------------------------------------------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**Newton**](https://github.com/newton-physics/newton) ⭐ 5,580 \| 🐛 402 \| 🌐 Python \| 📅 2026-09-03                    | 🆓     | The new centre of gravity. Open-source, GPU-accelerated, differentiable; built on NVIDIA Warp + OpenUSD; developed by NVIDIA + Google DeepMind + Disney Research under the Linux Foundation. v1.0 GA at GTC 2026. Bundles MuJoCo-Warp and Disney's Kamino (closed-loop mechanisms) solvers, SDF collision, hydroelastic contact, and deformables. |
+| [**Newton**](https://github.com/newton-physics/newton) ⭐ 5,585 \| 🐛 405 \| 🌐 Python \| 📅 2026-09-04                    | 🆓     | The new centre of gravity. Open-source, GPU-accelerated, differentiable; built on NVIDIA Warp + OpenUSD; developed by NVIDIA + Google DeepMind + Disney Research under the Linux Foundation. v1.0 GA at GTC 2026. Bundles MuJoCo-Warp and Disney's Kamino (closed-loop mechanisms) solvers, SDF collision, hydroelastic contact, and deformables. |
 | [MuJoCo](https://mujoco.org/)                                                                                             | 🆓     | Contact-rich control research; CPU version remains the easiest to debug                                                                                                                                                                                                                                                                           |
-| [MuJoCo Playground](https://github.com/google-deepmind/mujoco_playground) ⭐ 2,178 \| 🐛 107 \| 🌐 Python \| 📅 2026-09-02 | 🆓     | Ready-made GPU RL environments                                                                                                                                                                                                                                                                                                                    |
-| [Isaac Lab](https://github.com/isaac-sim/IsaacLab) ⭐ 8,032 \| 🐛 517 \| 🌐 Python \| 📅 2026-09-03                        | 🆓     | Large-scale robot learning; v3.0 builds on Newton + PhysX                                                                                                                                                                                                                                                                                         |
+| [MuJoCo Playground](https://github.com/google-deepmind/mujoco_playground) ⭐ 2,182 \| 🐛 107 \| 🌐 Python \| 📅 2026-09-02 | 🆓     | Ready-made GPU RL environments                                                                                                                                                                                                                                                                                                                    |
+| [Isaac Lab](https://github.com/isaac-sim/IsaacLab) ⭐ 8,039 \| 🐛 520 \| 🌐 Python \| 📅 2026-09-04                        | 🆓     | Large-scale robot learning; v3.0 builds on Newton + PhysX                                                                                                                                                                                                                                                                                         |
 | [Isaac Sim](https://developer.nvidia.com/isaac/sim)                                                                       | 🆓     | Photorealistic digital twins, synthetic data, sensor simulation                                                                                                                                                                                                                                                                                   |
-| [Genesis](https://github.com/Genesis-Embodied-AI/Genesis) ⭐ 29,868 \| 🐛 135 \| 🌐 Python \| 📅 2026-09-03                | 🆓     | Fast multi-platform GPU physics; strong on generative scene creation                                                                                                                                                                                                                                                                              |
+| [Genesis](https://github.com/Genesis-Embodied-AI/Genesis) ⭐ 29,872 \| 🐛 135 \| 🌐 Python \| 📅 2026-09-04                | 🆓     | Fast multi-platform GPU physics; strong on generative scene creation                                                                                                                                                                                                                                                                              |
 | [Gazebo](https://gazebosim.org/)                                                                                          | 🆓     | ROS-native system-level simulation; still the right tool for full-robot integration testing                                                                                                                                                                                                                                                       |
 | [Webots](https://cyberbotics.com/)                                                                                        | 🆓     | Education; batteries included, low setup cost ⭐                                                                                                                                                                                                                                                                                                   |
 | [CoppeliaSim](https://www.coppeliarobotics.com/)                                                                          | 🆓 edu | Teaching kinematics; used by the Modern Robotics course                                                                                                                                                                                                                                                                                           |
@@ -461,9 +461,9 @@ The physics-engine landscape has been rewritten by GPU acceleration.
 
 ### Perception
 
-* 🔧 [SAM 2](https://github.com/facebookresearch/sam2) ⭐ 19,801 | 🐛 482 | 🌐 Jupyter Notebook | 📅 2026-05-30 🆓 — promptable segmentation for images and video; now a standard preprocessing block in robot perception.
-* 🔧 [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) ⭐ 9,022 | 🐛 571 | 🌐 C++ | 📅 2024-07-24 🆓 / [RTAB-Map](https://introlab.github.io/rtabmap/) 🆓 — visual and RGB-D SLAM.
-* 🔧 [Nerfstudio](https://docs.nerf.studio/) 🆓 / [gsplat](https://github.com/nerfstudio-project/gsplat) ⭐ 5,624 | 🐛 362 | 🌐 Python | 📅 2026-09-01 🆓 — NeRF and 3D Gaussian splatting; now used for real-to-sim asset capture.
+* 🔧 [SAM 2](https://github.com/facebookresearch/sam2) ⭐ 19,808 | 🐛 483 | 🌐 Jupyter Notebook | 📅 2026-05-30 🆓 — promptable segmentation for images and video; now a standard preprocessing block in robot perception.
+* 🔧 [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) ⭐ 9,024 | 🐛 571 | 🌐 C++ | 📅 2024-07-24 🆓 / [RTAB-Map](https://introlab.github.io/rtabmap/) 🆓 — visual and RGB-D SLAM.
+* 🔧 [Nerfstudio](https://docs.nerf.studio/) 🆓 / [gsplat](https://github.com/nerfstudio-project/gsplat) ⭐ 5,630 | 🐛 361 | 🌐 Python | 📅 2026-09-03 🆓 — NeRF and 3D Gaussian splatting; now used for real-to-sim asset capture.
 * 🔧 [FoundationPose](https://github.com/NVlabs/FoundationPose) ⭐ 3,534 | 🐛 144 | 🌐 Python | 📅 2026-04-29 🆓 — 6-DoF pose estimation for novel objects.
 * 🔧 [OpenCV](https://opencv.org/) 🆓 — v5 launched at CVPR 2026.
 * 🔧 [Open3D](https://www.open3d.org/) 🆓 — point clouds and 3D processing.
@@ -515,7 +515,7 @@ Three ideas do most of the work in modern policies:
 
 ### 7.1 Imitation learning & action chunking
 
-* 📄 [Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware (ACT / ALOHA)](https://arxiv.org/abs/2304.13705) — Zhao, Kumar, Levine, Finn, RSS 2023. 🆓 **The paper that made cheap bimanual imitation learning work.** Start here. ⭐ [code](https://github.com/tonyzhaozh/act) ⭐ 2,198 | 🐛 32 | 🌐 Python | 📅 2024-07-23 · [project](https://tonyzhaozh.github.io/aloha/)
+* 📄 [Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware (ACT / ALOHA)](https://arxiv.org/abs/2304.13705) — Zhao, Kumar, Levine, Finn, RSS 2023. 🆓 **The paper that made cheap bimanual imitation learning work.** Start here. ⭐ [code](https://github.com/tonyzhaozh/act) ⭐ 2,201 | 🐛 32 | 🌐 Python | 📅 2024-07-23 · [project](https://tonyzhaozh.github.io/aloha/)
 * 📄 [Universal Manipulation Interface (UMI)](https://umi-gripper.github.io/) — Chi et al., RSS 2024. 🆓 Collect demonstrations with a handheld gripper and a GoPro, no robot required. A genuinely important idea for anyone without a robot budget. 🧪
 * 📄 [Action chunking and exploratory data collection yield exponential improvements in behavior cloning](https://arxiv.org/abs/2507.09061) — 2025. 🔬 The theory behind why chunking works.
 * 📄 [Bidirectional Decoding](https://arxiv.org/abs/2408.17355) — ICLR 2025. Closed-loop resampling to fix chunk-boundary artefacts.
@@ -524,7 +524,7 @@ Three ideas do most of the work in modern policies:
 
 A diffusion policy generates robot actions by iteratively denoising, exactly as image diffusion models generate pixels. It handles multimodal demonstrations naturally and has become the default strong baseline.
 
-* 📄 [**Diffusion Policy: Visuomotor Policy Learning via Action Diffusion**](https://diffusion-policy.cs.columbia.edu/) — Chi et al., RSS 2023 / *IJRR* 2025. 🆓 **The foundational paper.** ⭐ [code](https://github.com/real-stanford/diffusion_policy) ⭐ 4,509 | 🐛 101 | 🌐 Python | 📅 2024-12-24 · [arXiv](https://arxiv.org/abs/2303.04137)
+* 📄 [**Diffusion Policy: Visuomotor Policy Learning via Action Diffusion**](https://diffusion-policy.cs.columbia.edu/) — Chi et al., RSS 2023 / *IJRR* 2025. 🆓 **The foundational paper.** ⭐ [code](https://github.com/real-stanford/diffusion_policy) ⭐ 4,512 | 🐛 101 | 🌐 Python | 📅 2024-12-24 · [arXiv](https://arxiv.org/abs/2303.04137)
 * 📄 [3D Diffusion Policy (DP3)](https://3d-diffusion-policy.github.io/) — point-cloud conditioning; large sample-efficiency gains.
 * 📄 [Consistency Policy](https://consistency-policy.github.io/) / [ManiCM](https://arxiv.org/abs/2406.01586) — distil the multi-step denoiser into few-step inference for real-time control.
 * 📄 [NoMaD: Goal-Masked Diffusion Policies for Navigation and Exploration](https://general-navigation-models.github.io/nomad/) — ICRA 2024. Diffusion for mobile robots, not just arms.
@@ -570,10 +570,10 @@ flowchart LR
 | Model                                                                                                                            | Params  | Licence       | Notes                                                                                                                                                                                                                                            |
 | -------------------------------------------------------------------------------------------------------------------------------- | ------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [**SmolVLA**](https://huggingface.co/blog/smolvla)                                                                               | 450M    | 🆓 Apache     | Hugging Face, June 2025. Trained purely on community datasets; runs on consumer hardware. **Best starting point.** ⭐ [📄](https://arxiv.org/abs/2506.01844)                                                                                      |
-| [**OpenVLA**](https://openvla.github.io/)                                                                                        | 7B      | 🆓            | Stanford/Berkeley, 2024. \~970k Open X-Embodiment episodes; DINOv2 + SigLIP + Llama 2. The reference open VLA. [📄](https://arxiv.org/abs/2406.09246) [code](https://github.com/openvla/openvla) ⭐ 6,940 \| 🐛 114 \| 🌐 Python \| 📅 2025-03-23 |
+| [**OpenVLA**](https://openvla.github.io/)                                                                                        | 7B      | 🆓            | Stanford/Berkeley, 2024. \~970k Open X-Embodiment episodes; DINOv2 + SigLIP + Llama 2. The reference open VLA. [📄](https://arxiv.org/abs/2406.09246) [code](https://github.com/openvla/openvla) ⭐ 6,953 \| 🐛 116 \| 🌐 Python \| 📅 2025-03-23 |
 | [OpenVLA-OFT](https://openvla-oft.github.io/)                                                                                    | 7B      | 🆓            | Optimised fine-tuning recipe; large speed/success gains over base OpenVLA                                                                                                                                                                        |
-| [**π₀ / openpi**](https://github.com/Physical-Intelligence/openpi) ⭐ 13,613 \| 🐛 335 \| 🌐 Python \| 📅 2026-08-24              | \~3B    | 🆓 weights    | Physical Intelligence. Flow-matching action expert on a VLM backbone; pretrained on 10,000+ hours. Smoothest trajectories in contact-rich tasks. [📄](https://arxiv.org/abs/2410.24164)                                                          |
-| [**Isaac GR00T N**](https://github.com/NVIDIA/Isaac-GR00T) ⭐ 7,994 \| 🐛 329 \| 🌐 Python \| 📅 2026-08-20                       | \~2–3B  | 🆓            | NVIDIA. Dual-system: slow VLM planner (System 2) + fast diffusion transformer controller (System 1). N1 (Mar 2025) → N1.5 → N1.6 (Dec 2025, Cosmos-2B backbone). Built for humanoids. [📄](https://arxiv.org/abs/2503.14734)                     |
+| [**π₀ / openpi**](https://github.com/Physical-Intelligence/openpi) ⭐ 13,635 \| 🐛 337 \| 🌐 Python \| 📅 2026-08-24              | \~3B    | 🆓 weights    | Physical Intelligence. Flow-matching action expert on a VLM backbone; pretrained on 10,000+ hours. Smoothest trajectories in contact-rich tasks. [📄](https://arxiv.org/abs/2410.24164)                                                          |
+| [**Isaac GR00T N**](https://github.com/NVIDIA/Isaac-GR00T) ⭐ 8,000 \| 🐛 330 \| 🌐 Python \| 📅 2026-08-20                       | \~2–3B  | 🆓            | NVIDIA. Dual-system: slow VLM planner (System 2) + fast diffusion transformer controller (System 1). N1 (Mar 2025) → N1.5 → N1.6 (Dec 2025, Cosmos-2B backbone). Built for humanoids. [📄](https://arxiv.org/abs/2503.14734)                     |
 | [Octo](https://octo-models.github.io/)                                                                                           | 27M–93M | 🆓            | Generalist transformer policy; small and easy to fine-tune                                                                                                                                                                                       |
 | [SpatialVLA](https://spatialvla.github.io/)                                                                                      | 4B      | 🆓            | Explicit 3D spatial representations                                                                                                                                                                                                              |
 | [MolmoAct](https://arxiv.org/abs/2508.07917)                                                                                     | —       | 🆓            | "Action reasoning model" — reasons in space before acting                                                                                                                                                                                        |
@@ -601,7 +601,7 @@ Learned simulators that predict how the world evolves given actions — used for
 
 ### 7.6 Reinforcement learning on real hardware
 
-* 🔧 [rsl\_rl](https://github.com/leggedrobotics/rsl_rl) ⭐ 2,944 | 🐛 8 | 🌐 Python | 📅 2026-08-31 🆓 — the PPO implementation behind most legged-robot papers.
+* 🔧 [rsl\_rl](https://github.com/leggedrobotics/rsl_rl) ⭐ 2,946 | 🐛 8 | 🌐 Python | 📅 2026-08-31 🆓 — the PPO implementation behind most legged-robot papers.
 * 📄 [HIL-SERL: Human-in-the-Loop Sample-Efficient RL](https://hil-serl.github.io/) — Luo et al. 🆓 Trains real-robot manipulation policies to near-perfect success in 1–2 hours of real interaction. **The most practically important real-robot RL result of recent years.** ⭐
 * 📄 [Learning Quadrupedal Locomotion over Challenging Terrain](https://leggedrobotics.github.io/rl-blindloco/) — Lee et al., *Science Robotics* 2020. The sim-to-real result that started the legged-robot RL era.
 * 📄 [Rapid Motor Adaptation](https://ashish-kmr.github.io/rma-legged-robots/) — online adaptation to changing dynamics.
@@ -616,7 +616,7 @@ Learned simulators that predict how the world evolves given actions — used for
 | [BridgeData V2](https://rail-berkeley.github.io/bridgedata/) 🆓                                                     | 60k trajectories, widely used for VLA pretraining                               |
 | [LeRobot datasets on the HF Hub](https://huggingface.co/datasets?other=LeRobot) 🆓                                  | Thousands of community datasets in a standard format                            |
 | [LIBERO](https://libero-project.github.io/) 🆓                                                                      | The standard lifelong-manipulation benchmark                                    |
-| [SimplerEnv](https://github.com/simpler-env/SimplerEnv) ⭐ 1,154 \| 🐛 34 \| 🌐 Jupyter Notebook \| 📅 2025-12-20 🆓 | Reproducible simulated evaluation of real-robot VLAs                            |
+| [SimplerEnv](https://github.com/simpler-env/SimplerEnv) ⭐ 1,155 \| 🐛 35 \| 🌐 Jupyter Notebook \| 📅 2025-12-20 🆓 | Reproducible simulated evaluation of real-robot VLAs                            |
 | [RoboCasa](https://robocasa.ai/) 🆓                                                                                 | Large-scale simulated kitchen environments                                      |
 | [RoboTwin 2.0](https://arxiv.org/abs/2506.18088) 🆓                                                                 | Bimanual manipulation data generator + benchmark                                |
 | [Isaac Lab-Arena](https://developer.nvidia.com/isaac/lab) 🆓                                                        | NVIDIA's robot evaluation framework (2026)                                      |
@@ -625,7 +625,7 @@ Learned simulators that predict how the world evolves given actions — used for
 
 The single highest-value practical exercise in modern mechatronics. Under €500 of hardware and one afternoon.
 
-* 🔧 [**LeRobot**](https://github.com/huggingface/lerobot) ⭐ 27,180 | 🐛 857 | 🌐 Python | 📅 2026-09-03 🆓 — Hugging Face's end-to-end robot learning library. `pip install`, no ROS required. Includes ACT, Diffusion Policy, VQ-BeT, π₀, SmolVLA, HIL-SERL, TD-MPC. ⭐ [📄 ICLR 2026](https://arxiv.org/abs/2602.22818)
+* 🔧 [**LeRobot**](https://github.com/huggingface/lerobot) ⭐ 27,207 | 🐛 858 | 🌐 Python | 📅 2026-09-04 🆓 — Hugging Face's end-to-end robot learning library. `pip install`, no ROS required. Includes ACT, Diffusion Policy, VQ-BeT, π₀, SmolVLA, HIL-SERL, TD-MPC. ⭐ [📄 ICLR 2026](https://arxiv.org/abs/2602.22818)
 * 📖 [**Robot Learning: A Tutorial**](https://arxiv.org/abs/2510.12403) — Capuano, Pascal, Zouitine, Aractingi, Wolf. 🆓 RL → behavioural cloning → generalist policies, with runnable `lerobot` code. **Read this cover to cover.** ⭐
 * 🎓 [SO-101 assembly guide](https://huggingface.co/docs/lerobot/so101) 🆓 — 3D-printable leader/follower arm pair, \~€120–250 depending on servos.
 * 🎓 [NVIDIA SO-101 sim-to-real course](https://docs.nvidia.com/learning/physical-ai/sim-to-real-so-101/latest/) 🆓 — the same arm, through Isaac Sim → Isaac Lab → GR00T → hardware.
@@ -734,11 +734,11 @@ Open-source and low-cost platforms, roughly by price.
 
 | Platform                                                                                                    | \~Cost    | Type                 | Notes                                                                                                                  |
 | ----------------------------------------------------------------------------------------------------------- | --------- | -------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| [SO-101 / SO-ARM101](https://github.com/TheRobotStudio/SO-ARM100) ⭐ 7,281 \| 🐛 83 \| 📅 2026-08-05         | €120–350  | 6-DoF arm pair       | 🆓 open hardware. Leader/follower teleoperation; the LeRobot reference platform. Kits from Hiwonder, Seeed, WowRobo. ⭐ |
+| [SO-101 / SO-ARM101](https://github.com/TheRobotStudio/SO-ARM100) ⭐ 7,294 \| 🐛 84 \| 📅 2026-08-05         | €120–350  | 6-DoF arm pair       | 🆓 open hardware. Leader/follower teleoperation; the LeRobot reference platform. Kits from Hiwonder, Seeed, WowRobo. ⭐ |
 | [LeKiwi](https://github.com/SIGRobotics-UIUC/LeKiwi) ⭐ 1,410 \| 🐛 12 \| 📅 2026-08-05                      | €400      | Mobile manipulator   | SO-101 on a holonomic base; open source                                                                                |
 | [Koch v1.1](https://github.com/jess-moss/koch-v1-1) ⭐ 729 \| 🐛 10 \| 📅 2024-09-17                         | €250      | 5-DoF arm            | The predecessor design; still a good build                                                                             |
 | [ALOHA / ALOHA 2](https://aloha-2.github.io/)                                                               | €5k–20k   | Bimanual             | The reference bimanual teleoperation setup                                                                             |
-| [Open Duck Mini](https://github.com/apirrone/Open_Duck_Mini) ⭐ 3,923 \| 🐛 28 \| 🌐 Python \| 📅 2026-01-31 | €400      | Bipedal              | Approachable legged-robot learning platform                                                                            |
+| [Open Duck Mini](https://github.com/apirrone/Open_Duck_Mini) ⭐ 3,948 \| 🐛 28 \| 🌐 Python \| 📅 2026-01-31 | €400      | Bipedal              | Approachable legged-robot learning platform                                                                            |
 | [Reachy 2 / Reachy Mini](https://www.pollen-robotics.com/)                                                  | €300–70k  | Humanoid             | Pollen Robotics (Hugging Face); open source                                                                            |
 | [Unitree Go2 / G1](https://www.unitree.com/)                                                                | €1.6k–16k | Quadruped / humanoid | The default research legged platforms; SDK is usable                                                                   |
 | [Franka Research 3](https://franka.de/)                                                                     | €25k+     | 7-DoF arm            | The academic manipulation standard; excellent torque control                                                           |
@@ -815,7 +815,7 @@ Where things stand, honestly assessed.
 **Communities**
 
 * [ROS Discourse](https://discourse.ros.org/) · [Robotics Stack Exchange](https://robotics.stackexchange.com/)
-* [LeRobot](https://github.com/huggingface/lerobot) ⭐ 27,180 | 🐛 857 | 🌐 Python | 📅 2026-09-03 — very active Discord; the current invite is linked from the repo README
+* [LeRobot](https://github.com/huggingface/lerobot) ⭐ 27,207 | 🐛 858 | 🌐 Python | 📅 2026-09-04 — very active Discord; the current invite is linked from the repo README
 * [r/robotics](https://reddit.com/r/robotics) · [r/PLC](https://reddit.com/r/PLC) (the best industrial-automation community online) · [r/ControlTheory](https://reddit.com/r/ControlTheory)
 * [Hugging Face Robotics](https://huggingface.co/robotics)
 
@@ -825,29 +825,29 @@ Where things stand, honestly assessed.
 
 **Robotics & learning**
 
-* [PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics) ⭐ 30,434 | 🐛 53 | 🌐 Python | 📅 2026-09-02 — algorithms with readable code
-* [robotics-coursework](https://github.com/mithi/robotics-coursework) ⭐ 5,191 | 🐛 2 | 📅 2026-08-31 — where to learn robotics online
+* [PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics) ⭐ 30,443 | 🐛 54 | 🌐 Python | 📅 2026-09-02 — algorithms with readable code
+* [robotics-coursework](https://github.com/mithi/robotics-coursework) ⭐ 5,195 | 🐛 2 | 📅 2026-08-31 — where to learn robotics online
 * [Awesome LLM Robotics](https://github.com/GT-RIPL/Awesome-LLM-Robotics) ⭐ 4,460 | 🐛 10 | 📅 2026-07-17
 * [Awesome ROS2](https://github.com/fkromer/awesome-ros2) ⚠️ Archived
-* [Awesome Robotics](https://github.com/ahundt/awesome-robotics) ⭐ 1,483 | 🐛 8 | 📅 2024-01-10 · [Awesome Robotics Libraries](https://github.com/jslee02/awesome-robotics-libraries) ⭐ 3,031 | 🐛 17 | 🌐 Python | 📅 2026-08-25
-* [Awesome Embodied AI](https://github.com/haoranD/Awesome-Embodied-AI) ⭐ 528 | 🐛 4 | 📅 2025-06-03
-* [Awesome Physical AI](https://github.com/keon/awesome-physical-ai) ⭐ 406 | 🐛 16 | 📅 2026-06-24 — VLA, world models, embodied AI, robot foundation models
+* [Awesome Robotics](https://github.com/ahundt/awesome-robotics) ⭐ 1,484 | 🐛 8 | 📅 2024-01-10 · [Awesome Robotics Libraries](https://github.com/jslee02/awesome-robotics-libraries) ⭐ 3,032 | 🐛 18 | 🌐 Python | 📅 2026-08-25
+* [Awesome Embodied AI](https://github.com/haoranD/Awesome-Embodied-AI) ⭐ 529 | 🐛 4 | 📅 2025-06-03
+* [Awesome Physical AI](https://github.com/keon/awesome-physical-ai) ⭐ 407 | 🐛 17 | 📅 2026-06-24 — VLA, world models, embodied AI, robot foundation models
 * [Awesome VLA](https://github.com/KwanWaiPang/Awesome-VLA) ⭐ 97 | 🐛 2 | 📅 2026-02-03 — actively maintained VLA paper tracker
 
 **Engineering & embedded**
 
-* [Awesome C++](https://github.com/fffaraz/awesome-cpp) ⭐ 73,095 | 🐛 312 | 📅 2026-09-01 · [Awesome Python](https://github.com/vinta/awesome-python) ⭐ 317,901 | 🐛 18 | 🌐 Python | 📅 2026-09-01
-* [Awesome Embedded](https://github.com/nhivp/Awesome-Embedded) ⭐ 9,071 | 🐛 9 | 📅 2026-08-12 · [Awesome Embedded Rust](https://github.com/rust-embedded/awesome-embedded-rust) ⭐ 8,065 | 🐛 15 | 📅 2026-08-28
-* [Awesome Electronics](https://github.com/kitspace/awesome-electronics) ⭐ 8,093 | 🐛 34 | 📅 2026-01-05
-* [Awesome Embedded and IoT Security](https://github.com/fkie-cad/awesome-embedded-and-iot-security) ⭐ 2,432 | 🐛 2 | 📅 2023-10-17
-* [Awesome Mechanical Engineering](https://github.com/m2n037/awesome-mecheng) ⭐ 1,680 | 🐛 22 | 📅 2024-09-24
+* [Awesome C++](https://github.com/fffaraz/awesome-cpp) ⭐ 73,112 | 🐛 312 | 📅 2026-09-01 · [Awesome Python](https://github.com/vinta/awesome-python) ⭐ 318,150 | 🐛 16 | 🌐 Python | 📅 2026-09-01
+* [Awesome Embedded](https://github.com/nhivp/Awesome-Embedded) ⭐ 9,076 | 🐛 9 | 📅 2026-08-12 · [Awesome Embedded Rust](https://github.com/rust-embedded/awesome-embedded-rust) ⭐ 8,067 | 🐛 15 | 📅 2026-08-28
+* [Awesome Electronics](https://github.com/kitspace/awesome-electronics) ⭐ 8,092 | 🐛 34 | 📅 2026-01-05
+* [Awesome Embedded and IoT Security](https://github.com/fkie-cad/awesome-embedded-and-iot-security) ⭐ 2,434 | 🐛 2 | 📅 2023-10-17
+* [Awesome Mechanical Engineering](https://github.com/m2n037/awesome-mecheng) ⭐ 1,681 | 🐛 22 | 📅 2024-09-24
 * [Awesome TinyML](https://github.com/gigwegbe/tinyml-papers-and-projects) ⭐ 1,030 | 🐛 3 | 📅 2025-12-08
 
 **AI**
 
-* [Awesome MCP Servers](https://github.com/modelcontextprotocol/servers) ⭐ 90,043 | 🐛 478 | 🌐 TypeScript | 📅 2026-09-03
-* [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning) ⭐ 74,245 | 🐛 29 | 🌐 Python | 📅 2026-09-02 · [Awesome Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning) ⭐ 28,858 | 🐛 84 | 📅 2025-05-26
-* [Awesome Computer Vision](https://github.com/jbhuang0604/awesome-computer-vision) ⭐ 23,536 | 🐛 92 | 📅 2024-05-17
+* [Awesome MCP Servers](https://github.com/modelcontextprotocol/servers) ⭐ 90,073 | 🐛 481 | 🌐 TypeScript | 📅 2026-09-03
+* [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning) ⭐ 74,253 | 🐛 29 | 🌐 Python | 📅 2026-09-02 · [Awesome Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning) ⭐ 28,861 | 🐛 84 | 📅 2025-05-26
+* [Awesome Computer Vision](https://github.com/jbhuang0604/awesome-computer-vision) ⭐ 23,538 | 🐛 92 | 📅 2024-05-17
 
 ***
 
@@ -867,4 +867,4 @@ To the extent possible under law, the contributors have waived all copyright and
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-03._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-04._
