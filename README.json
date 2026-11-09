@@ -17,11 +17,11 @@
                 "id": 514553345,
                 "language": "C++",
                 "license": "AGPL-3.0",
-                "last_commit": "2026-11-08T08:12:09Z",
-                "open_issues": 2849,
+                "last_commit": "2026-11-09T15:23:50Z",
+                "open_issues": 2857,
                 "owner": "OrcaSlicer",
                 "repo": "OrcaSlicer",
-                "stars": 16381,
+                "stars": 16401,
                 "topics": [
                   "3d-printer",
                   "3d-printing",
@@ -62,7 +62,7 @@
                 "open_issues": 159,
                 "owner": "rust-embedded",
                 "repo": "embedded-hal",
-                "stars": 2677,
+                "stars": 2678,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:33:43.682Z"
@@ -130,7 +130,7 @@
                 "open_issues": 95,
                 "owner": "AtsushiSakai",
                 "repo": "PythonRobotics",
-                "stars": 30873,
+                "stars": 30881,
                 "topics": [
                   "algorithm",
                   "animation",
@@ -164,11 +164,11 @@
                 "id": 24897645,
                 "language": "C++",
                 "license": "BSD-2-Clause",
-                "last_commit": "2026-11-06T14:24:46Z",
-                "open_issues": 105,
+                "last_commit": "2026-11-09T00:25:55Z",
+                "open_issues": 106,
                 "owner": "stack-of-tasks",
                 "repo": "pinocchio",
-                "stars": 3854,
+                "stars": 3855,
                 "topics": [
                   "analytical-derivatives",
                   "automatic-differentiation",
@@ -207,7 +207,7 @@
                 "open_issues": 19,
                 "owner": "loco-3d",
                 "repo": "crocoddyl",
-                "stars": 1327,
+                "stars": 1329,
                 "topics": [
                   "code-generation",
                   "conda",
@@ -243,11 +243,11 @@
                 "id": 970467647,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-06T23:56:17Z",
-                "open_issues": 451,
+                "last_commit": "2026-11-09T15:56:17Z",
+                "open_issues": 453,
                 "owner": "newton-physics",
                 "repo": "newton",
-                "stars": 5903,
+                "stars": 5913,
                 "topics": [
                   "newton-physics",
                   "nvidia-warp",
@@ -269,11 +269,11 @@
                 "id": 898162230,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-08T00:02:38Z",
+                "last_commit": "2026-11-09T15:38:27Z",
                 "open_issues": 88,
                 "owner": "google-deepmind",
                 "repo": "mujoco_playground",
-                "stars": 2278,
+                "stars": 2283,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:33:43.682Z"
@@ -290,11 +290,11 @@
                 "id": 567038244,
                 "language": "Python",
                 "license": "NOASSERTION",
-                "last_commit": "2026-11-08T08:08:08Z",
+                "last_commit": "2026-11-09T07:37:05Z",
                 "open_issues": 413,
                 "owner": "isaac-sim",
                 "repo": "IsaacLab",
-                "stars": 8591,
+                "stars": 8603,
                 "topics": [
                   "isaac-sim",
                   "omniverse-kit-extension",
@@ -316,8 +316,8 @@
                 "id": 712225112,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-08T11:33:52Z",
-                "open_issues": 162,
+                "last_commit": "2026-11-09T15:07:53Z",
+                "open_issues": 163,
                 "owner": "Genesis-Embodied-AI",
                 "repo": "genesis-world",
                 "stars": 30201,
@@ -348,7 +348,7 @@
                 "open_issues": 487,
                 "owner": "facebookresearch",
                 "repo": "sam2",
-                "stars": 20113,
+                "stars": 20122,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:33:43.682Z"
@@ -369,7 +369,7 @@
                 "open_issues": 574,
                 "owner": "UZ-SLAMLab",
                 "repo": "ORB_SLAM3",
-                "stars": 9229,
+                "stars": 9237,
                 "topics": [
                   "slam-algorithms"
                 ]
@@ -389,10 +389,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-19T07:16:19Z",
-                "open_issues": 403,
+                "open_issues": 404,
                 "owner": "nerfstudio-project",
                 "repo": "gsplat",
-                "stars": 5872,
+                "stars": 5881,
                 "topics": [
                   "gaussian-splatting"
                 ]
@@ -415,7 +415,7 @@
                 "open_issues": 146,
                 "owner": "NVlabs",
                 "repo": "FoundationPose",
-                "stars": 3687,
+                "stars": 3690,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:33:43.682Z"
@@ -449,7 +449,7 @@
                 "open_issues": 38,
                 "owner": "tonyzhaozh",
                 "repo": "act",
-                "stars": 2326,
+                "stars": 2333,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:33:43.682Z"
@@ -477,7 +477,7 @@
                 "open_issues": 114,
                 "owner": "real-stanford",
                 "repo": "diffusion_policy",
-                "stars": 4714,
+                "stars": 4721,
                 "topics": [
                   "robotics"
                 ]
@@ -507,7 +507,7 @@
                 "open_issues": 118,
                 "owner": "openvla",
                 "repo": "openvla",
-                "stars": 7275,
+                "stars": 7281,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:33:43.682Z"
@@ -528,7 +528,7 @@
                 "open_issues": 376,
                 "owner": "Physical-Intelligence",
                 "repo": "openpi",
-                "stars": 14573,
+                "stars": 14598,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:33:43.682Z"
@@ -545,11 +545,11 @@
                 "id": 946829547,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-08T01:34:26Z",
-                "open_issues": 345,
+                "last_commit": "2026-11-08T17:27:10Z",
+                "open_issues": 342,
                 "owner": "NVIDIA",
                 "repo": "Isaac-GR00T",
-                "stars": 8329,
+                "stars": 8336,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:33:43.682Z"
@@ -577,7 +577,7 @@
                 "open_issues": 18,
                 "owner": "leggedrobotics",
                 "repo": "rsl_rl",
-                "stars": 3123,
+                "stars": 3124,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:33:43.682Z"
@@ -605,7 +605,7 @@
                 "open_issues": 33,
                 "owner": "simpler-env",
                 "repo": "SimplerEnv",
-                "stars": 1180,
+                "stars": 1181,
                 "topics": [
                   "computer-vision",
                   "embodied-ai",
@@ -639,11 +639,11 @@
                 "id": 748713144,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-08T03:30:34Z",
-                "open_issues": 916,
+                "last_commit": "2026-11-09T13:37:13Z",
+                "open_issues": 921,
                 "owner": "huggingface",
                 "repo": "lerobot",
-                "stars": 28748,
+                "stars": 28773,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:33:43.682Z"
@@ -675,7 +675,7 @@
             "open_issues": 91,
             "owner": "TheRobotStudio",
             "repo": "SO-ARM100",
-            "stars": 8041,
+            "stars": 8060,
             "topics": []
           },
           "first_seen": "2026-08-28T18:33:43.682Z"
@@ -693,10 +693,10 @@
             "language": null,
             "license": "Apache-2.0",
             "last_commit": "2026-08-05T09:25:59Z",
-            "open_issues": 13,
+            "open_issues": 14,
             "owner": "SIGRobotics-UIUC",
             "repo": "LeKiwi",
-            "stars": 1511,
+            "stars": 1513,
             "topics": []
           },
           "first_seen": "2026-08-28T18:33:43.682Z"
@@ -714,7 +714,7 @@
             "language": null,
             "license": "Apache-2.0",
             "last_commit": "2024-09-17T13:55:36Z",
-            "open_issues": 10,
+            "open_issues": 11,
             "owner": "jess-moss",
             "repo": "koch-v1-1",
             "stars": 736,
@@ -735,10 +735,10 @@
             "language": "Python",
             "license": "Apache-2.0",
             "last_commit": "2026-01-31T10:28:29Z",
-            "open_issues": 31,
+            "open_issues": 32,
             "owner": "apirrone",
             "repo": "Open_Duck_Mini",
-            "stars": 4670,
+            "stars": 4679,
             "topics": []
           },
           "first_seen": "2026-08-28T18:33:43.682Z"
@@ -765,7 +765,7 @@
             "open_issues": 95,
             "owner": "AtsushiSakai",
             "repo": "PythonRobotics",
-            "stars": 30873,
+            "stars": 30881,
             "topics": [
               "algorithm",
               "animation",
@@ -803,7 +803,7 @@
             "open_issues": 2,
             "owner": "mithi",
             "repo": "robotics-coursework",
-            "stars": 5375,
+            "stars": 5377,
             "topics": [
               "algorithm",
               "algorithms",
@@ -837,7 +837,7 @@
             "open_issues": 9,
             "owner": "GT-RIPL",
             "repo": "Awesome-LLM-Robotics",
-            "stars": 4499,
+            "stars": 4500,
             "topics": []
           },
           "first_seen": "2026-08-28T18:33:43.682Z"
@@ -1017,7 +1017,7 @@
             "open_issues": 288,
             "owner": "fffaraz",
             "repo": "awesome-cpp",
-            "stars": 74310,
+            "stars": 74335,
             "topics": [
               "awesome",
               "awesome-list",
@@ -1051,7 +1051,7 @@
             "open_issues": 21,
             "owner": "nhivp",
             "repo": "Awesome-Embedded",
-            "stars": 9324,
+            "stars": 9330,
             "topics": [
               "ai",
               "autosar",
@@ -1092,7 +1092,7 @@
             "open_issues": 40,
             "owner": "kitspace",
             "repo": "awesome-electronics",
-            "stars": 8339,
+            "stars": 8345,
             "topics": [
               "altium",
               "awesome",
@@ -1122,7 +1122,7 @@
             "open_issues": 2,
             "owner": "fkie-cad",
             "repo": "awesome-embedded-and-iot-security",
-            "stars": 2515,
+            "stars": 2516,
             "topics": [
               "awesome",
               "awesome-list",
@@ -1147,10 +1147,10 @@
             "language": null,
             "license": "GPL-3.0",
             "last_commit": "2024-09-24T17:54:44Z",
-            "open_issues": 31,
+            "open_issues": 34,
             "owner": "m2n037",
             "repo": "awesome-mecheng",
-            "stars": 1753,
+            "stars": 1756,
             "topics": [
               "altair",
               "ansys",
@@ -1212,7 +1212,7 @@
             "open_issues": 16,
             "owner": "modelcontextprotocol",
             "repo": "servers",
-            "stars": 91868,
+            "stars": 91889,
             "topics": []
           },
           "first_seen": "2026-08-28T18:33:43.682Z"
@@ -1230,10 +1230,10 @@
             "language": "Python",
             "license": "NOASSERTION",
             "last_commit": "2026-11-01T16:30:10Z",
-            "open_issues": 34,
+            "open_issues": 35,
             "owner": "josephmisiti",
             "repo": "awesome-machine-learning",
-            "stars": 74784,
+            "stars": 74785,
             "topics": []
           },
           "first_seen": "2026-08-28T18:33:43.682Z"
@@ -1254,7 +1254,7 @@
             "open_issues": 100,
             "owner": "jbhuang0604",
             "repo": "awesome-computer-vision",
-            "stars": 23632,
+            "stars": 23634,
             "topics": []
           },
           "first_seen": "2026-08-28T18:33:43.682Z"
@@ -1264,7 +1264,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-08T13:13:00.811Z",
+    "last_updated": "2026-11-09T15:59:48.477Z",
     "original_repository_info": {
       "archived": false,
       "description": "A list of awesome mechatronics books, courses and software.",
@@ -1276,7 +1276,7 @@
       "open_issues": 4,
       "owner": "engyasin",
       "repo": "awesome-mechatronics",
-      "stars": 229,
+      "stars": 231,
       "topics": [
         "awesome",
         "awesome-list",
